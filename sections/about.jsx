@@ -85,7 +85,7 @@ const About = () => {
                     <ImLocation />
                   </p>
                 </div>
-                <p className='text-center md:text-left text-[#0b0c0c] dark:text-[#0c11ab]'>
+                <p className='text-center md:text-left text-black dark:text-black'>
                   San Francisco Bay Area, USA{" "}
                 </p>
               </div>
@@ -100,7 +100,7 @@ const About = () => {
                     <FaBriefcase />
                   </p>
                 </div>
-                <p className='text-center md:text-left text-[#0c11ab] dark:text-[#0c11ab]'>
+                <p className='text-center md:text-left text-black dark:text-black'>
                   3+ Years{" "}
                 </p>
               </div>
