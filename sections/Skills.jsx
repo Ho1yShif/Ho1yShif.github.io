@@ -10,10 +10,7 @@ const TechStack = () => {
   const techBoxesRef = useRef();
 
   useEffect(() => {
-    const allTechStack = TechStackData.reduce((acc, curr) => {
-      return [...acc, ...curr.Advance, ...curr.Good, ...curr.Familiar];
-    }, []);
-    setSectionData(allTechStack);
+    setSectionData(TechStackData);
   }, []);
 
   return (
