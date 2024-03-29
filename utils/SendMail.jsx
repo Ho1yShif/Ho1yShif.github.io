@@ -53,7 +53,7 @@ const SendMail = () => {
                 id='name'
                 name='name'
                 onChange={collectData}
-                placeholder='Your Good Name'
+                placeholder='Name'
                 value={formData.name || ""}
               />
               <input
@@ -61,7 +61,7 @@ const SendMail = () => {
                 id='email'
                 name='email'
                 onChange={collectData}
-                placeholder='Your Email Address'
+                placeholder='Email Address'
                 value={formData.email || ""}
               />
               <input
@@ -69,7 +69,7 @@ const SendMail = () => {
                 id='subject'
                 name='subject'
                 onChange={collectData}
-                placeholder='Subject for mail'
+                placeholder='Subject'
                 value={formData.subject || ""}
               />
 
@@ -78,7 +78,7 @@ const SendMail = () => {
                 id='message'
                 name='message'
                 onChange={collectData}
-                placeholder='Write Your Message'
+                placeholder='Message'
                 rows='3'
                 value={formData.message || ""}
               />
