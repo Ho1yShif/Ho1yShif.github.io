@@ -82,7 +82,7 @@ const About = () => {
               </p>
               <br></br>
               <p>
-              When I'm not programming and writing, you'll find me going to shows, playing music, cooking, spending time with friends, or planning my next trip. I have a deep appreciation for wordplay, and I don't take myself too seriously. Thanks for taking the time to learn more about me :)
+              When I'm not programming and writing, you'll find me at a show, playing music, cooking, spending time with friends, or planning my next trip. I have a deep appreciation for wordplay, and I don't take myself too seriously. Thanks for taking the time to learn more about me :)
               </p>
             </div>
 
