@@ -50,7 +50,7 @@ const About = () => {
         ref={aboutRef}
       >
         <h2 className='text-3xl font-bold text-center pt-4 pb-8 flex justify-center items-center gap-3'>
-          <FaUserCheck /> About me
+          <FaUserCheck /> About Me
         </h2>
         <div className='pb-[30px] px-[20px] md:px-[100px] lg:px-[200px] md:flex gap-[50px]'>
           {/* Person Image */}
@@ -61,7 +61,7 @@ const About = () => {
             }
             height={350}
             ref={profile2Ref}
-            src='http://res.cloudinary.com/dqfrtazgi/image/upload/v1696181689/wt7sys9ubcvc41v6clq8.jpg'
+            src='/images/shif_images/Shifra_Italy.jpeg'
             width={350}
           />
           <div
@@ -70,11 +70,11 @@ const About = () => {
           >
             {/* Full Name */}
             <p className='text-3xl text-center md:text-left font-semibold text-[#c72c6c] dark:text-[#07d0e5]'>
-              Shivraj Gurjar
+              Shifra Isaacs
             </p>
             {/* Profil Name */}
             <p className='text-center md:text-left text-red-600 mt-1'>
-              Ful stack web developer
+              Data Scientist | Data Analyst | Technical Writer | Educator
             </p>
             {/* Location */}
             <div className='flex flex-wrap justify-center md:justify-normal gap-5'>
@@ -88,23 +88,10 @@ const About = () => {
                   </p>
                 </div>
                 <p className='text-center md:text-left text-[#0b0c0c] dark:text-[#07d0e5]'>
-                  Kota Rajasthan India{" "}
+                  San Francisco Bay Area, USA{" "}
                 </p>
               </div>
-              {/* Age */}
-              <div className='w-fit px-4 py-2 mt-5 border border-gray-400 rounded flex flex-col items-center gap-2'>
-                <div className='flex gap-3 items-center'>
-                  <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
-                    Age
-                  </p>
-                  <p>
-                    <IoPerson />
-                  </p>
-                </div>
-                <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
-                  20{" "}
-                </p>
-              </div>
+
               {/* Experience */}
               <div className='w-fit px-4 py-2 mt-5 border border-gray-400 rounded flex flex-col items-center gap-2'>
                 <div className='flex gap-3 items-center'>
@@ -116,34 +103,19 @@ const About = () => {
                   </p>
                 </div>
                 <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
-                  1 Year{" "}
-                </p>
-              </div>
-              {/* Project */}
-              <div className='w-fit px-4 py-2 mt-5 border border-gray-400 rounded flex flex-col items-center gap-2'>
-                <div className='flex gap-3 items-center'>
-                  <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
-                    Projects
-                  </p>
-                  <p>
-                    <BsMenuAppFill />
-                  </p>
-                </div>
-                <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
-                  3{" "}
+                  3+ Years{" "}
                 </p>
               </div>
             </div>
 
             <div className='mt-5 justify-evenly text-justify'>
-              <p className='text-gray-600 dark:text-gray-300'>
-                Passionate and driven ReactJS developer with a strong foundation
-                in MERN Stack and NextJS. Dedicated to creating dynamic and
-                user-centric web applications. Eager to contribute my expertise
-                in frontend frameworks, modern UI/UX design, and responsive
-                development to a forward-thinking team, while continuously
-                learning and growing in the ever-evolving world of web
-                development.
+              <p className='text-black-600 dark:text-black-300'>
+              I'm a data professional looking to make a positive impact via data science, data analytics, and education.
+              My work experience includes client-facing data science at Annalect and JPMorgan Chase, technical writing at Crash Course and DataLemur, and analytics reporting at Prose.
+              </p>
+              <br></br>
+              <p>
+              When I'm not programming, you'll find me going to shows, writing, cooking, spending time with friends, or planning my next trip. Check out my projects and writing to learn more about my work.
               </p>
             </div>
           </div>
