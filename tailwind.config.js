@@ -8,7 +8,7 @@ module.exports = {
     "./utils/**/*.{js,ts,jsx,tsx,mdx}",
     "./layout/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  darkMode: "class",
+  darkMode: false,
   theme: {
     extend: {},
   },

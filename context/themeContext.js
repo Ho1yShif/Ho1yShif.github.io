@@ -4,7 +4,7 @@ import React, { useState, createContext, useEffect } from "react";
 export const ThemeContext = createContext();
 
 const ThemeProvider = ({ children }) => {
-    const [theme, setTheme] = useState("dark");
+    const [theme, setTheme] = useState("light"); // Changed default theme to light
 
     // Toggle Theme
     const setThemeFun = () => {
@@ -29,7 +29,7 @@ const ThemeProvider = ({ children }) => {
     return (
         <ThemeContext.Provider value={{ theme, setThemeFun }}>
             <div className={theme === "dark" ? "dark" : ""}>
-                <div className='dark:text-white dark:bg-black'>{children}</div>
+                {children}
             </div>
         </ThemeContext.Provider>
     );
