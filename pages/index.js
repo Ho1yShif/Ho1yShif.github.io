@@ -2,7 +2,6 @@ import { Fragment } from "react";
 import Head from "next/head";
 import dynamic from "next/dynamic";
 
-import ShoveeModal from "@/utils/ShoveeModal";
 import About from "@/sections/about";
 import Education from "@/sections/education";
 import Experience from "@/sections/experience";
@@ -23,7 +22,7 @@ const Home = () => {
   return (
     <Fragment>
       <Head>
-        <title>Shiv&apos;s Portfolio</title>
+        <title>Shiv's Portfolio</title>
         {/* <!-- Primary Meta Tags --> */}
         <meta content="Shiv's Portfolio" name="title" />
         <meta content="Explore the best Next.js and React.js portfolio by Shivraj Gurjar. Featuring simple, dark and light theme designs and mobile responsiveness." name="description" />
@@ -84,8 +83,6 @@ const Home = () => {
           </div>
           {/* Feedback Modal */}
           <Feedback />
-          {/* ShoveeModal */}
-          <ShoveeModal />
         </div>
       </div>
     </Fragment>
