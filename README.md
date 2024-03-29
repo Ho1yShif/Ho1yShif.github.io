@@ -6,11 +6,12 @@ A space to introduce myself and share my professional accomplishments
   - Or find a way to search my Google drive for the name so it auto updates
 - Fill website with my content:
   - Top Menu
-  - Experience
-  - Writing
+  - Writing / Poetry
   - Top left logo
   - Tab Icon
   - Copyright at bottom
   - Make headshot not cut off on the right
   - Set up hyperlinks for links inside work exepreience section
+  - Separate work experience section into Tech Writing and Data work with two buttons that render separate data
+  - Remove separation lines between sections
 - Once website looks good, remove as much of the old Shiv stuff as I can
