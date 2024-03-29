@@ -43,6 +43,7 @@ const Experience = () => {
         >
           {ExperienceData.map((experience, index) =>
             experience.side === "left" ? (
+              // Render JSX if experience.side is left
               <div
                 className={`md:flex gap-2 items-end transition-all duration-500 ${
                   index !== 0 ? "mt-7" : ""
@@ -55,7 +56,9 @@ const Experience = () => {
                     setDesc(
                       desc === experience.description
                         ? ""
-                        : experience.description
+                        :
+                        // Render JSX if experience.side is right
+                    experience.description
                     )
                   }
                 >
@@ -65,7 +68,7 @@ const Experience = () => {
                     </p>
                   </div>
 
-                  <div className='flex justify-between text-gray-600 dark:text-black gap-2 mt-2'>
+                  <div className='flex justify-between text-black-600 dark:text-black gap-2 mt-2'>
                     <p className='font-semibold'>{experience.role}</p>
                     <p>{experience.from_date} – {experience.to_date}</p>
                   </div>
