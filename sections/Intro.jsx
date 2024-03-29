@@ -81,7 +81,6 @@ const Intro = () => {
                 {" "}
                 Educator<span className='text-white'>|</span>
               </span>
-
             </p>
             <div className='mt-5 md:mt-10 flex gap-3'>
             {/* Resume Button */}
@@ -97,12 +96,12 @@ const Intro = () => {
 
           {/* Image */}
           <div
-            className={
-              "translate-x-[500px] transition-all opacity-0 duration-700 w-[180px] h-[300px] md:w-[240px] md:h-[400px] bg-cover m-auto md:m-0 mt-[40px] md:mt-0 bg-no-repeat"
-            }
-            ref={profileRef}
-            style={{ backgroundImage: "url(/images/male.png)" }}
-          />
+          className={
+            "translate-x-[100px] transition-all opacity-0 duration-700 w-[180px] h-[300px] md:w-[240px] md:h-[400px] bg-cover m-auto md:m-0 mt-[40px] md:mt-0 bg-no-repeat"
+          }
+          ref={profileRef}
+          style={{ backgroundImage: "url(/images/shif_images/Circle_Headshot.svg)" }}
+        />
         </div>
       </section>
     </Fragment>
