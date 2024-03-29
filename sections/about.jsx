@@ -3,8 +3,6 @@ import React, { Fragment, useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import { FaBlackTie, FaUserCheck } from "react-icons/fa";
 import { ImLocation } from "react-icons/im";
-import { IoPerson } from "react-icons/io5";
-import { BsMenuAppFill } from "react-icons/bs";
 
 const About = () => {
   const [isAbout, setIsAbout] = useState(false);
@@ -69,25 +67,25 @@ const About = () => {
             ref={aboutInfoRef}
           >
             {/* Full Name */}
-            <p className='text-3xl text-center md:text-left font-semibold text-[#c72c6c] dark:text-[#07d0e5]'>
+            <p className='text-3xl text-center md:text-left font-semibold text-[#0c11ab] dark:text-[#0c11ab]'>
               Shifra Isaacs
             </p>
             {/* Profil Name */}
-            <p className='text-center md:text-left text-red-600 mt-1'>
+            <p className='text-center md:text-left text-black-600 mt-1'>
               Data Scientist | Data Analyst | Technical Writer | Educator
             </p>
             {/* Location */}
             <div className='flex flex-wrap justify-center md:justify-normal gap-5'>
               <div className='w-fit px-4 py-2 mt-5 border border-gray-400 rounded flex flex-col items-center gap-2'>
                 <div className='flex gap-3 items-center'>
-                  <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
+                  <p className='text-center md:text-left text-[#0c11ab] dark:text-[#0c11ab]'>
                     Location
                   </p>
                   <p>
                     <ImLocation />
                   </p>
                 </div>
-                <p className='text-center md:text-left text-[#0b0c0c] dark:text-[#07d0e5]'>
+                <p className='text-center md:text-left text-[#0b0c0c] dark:text-[#0c11ab]'>
                   San Francisco Bay Area, USA{" "}
                 </p>
               </div>
@@ -95,14 +93,14 @@ const About = () => {
               {/* Experience */}
               <div className='w-fit px-4 py-2 mt-5 border border-gray-400 rounded flex flex-col items-center gap-2'>
                 <div className='flex gap-3 items-center'>
-                  <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
+                  <p className='text-center md:text-left text-[#0c11ab] dark:text-[#0c11ab]'>
                     Experience
                   </p>
                   <p>
                     <FaBlackTie />
                   </p>
                 </div>
-                <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
+                <p className='text-center md:text-left text-[#0c11ab] dark:text-[#0c11ab]'>
                   3+ Years{" "}
                 </p>
               </div>
