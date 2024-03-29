@@ -1,7 +1,7 @@
 "use client";
 import React, { Fragment, useState, useRef, useEffect } from "react";
 import Image from "next/image";
-import { FaBlackTie, FaUserCheck } from "react-icons/fa";
+import { FaUserCheck, FaBriefcase } from "react-icons/fa";
 import { ImLocation } from "react-icons/im";
 
 const About = () => {
@@ -97,7 +97,7 @@ const About = () => {
                     Experience
                   </p>
                   <p>
-                    <FaBlackTie />
+                    <FaBriefcase />
                   </p>
                 </div>
                 <p className='text-center md:text-left text-[#0c11ab] dark:text-[#0c11ab]'>
