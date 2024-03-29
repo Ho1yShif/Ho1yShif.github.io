@@ -43,7 +43,7 @@ const SendMail = () => {
             <span className='mr-3'>
               <FiMessageCircle />
             </span>
-            Drop A Message
+            Email Me
           </h3>
 
           <form action='' onSubmit={sendMessage}>
