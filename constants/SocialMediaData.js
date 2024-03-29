@@ -1,4 +1,3 @@
-import { AiOutlineInstagram } from "react-icons/ai";
 import { BsGithub } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
