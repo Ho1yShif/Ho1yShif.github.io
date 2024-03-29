@@ -147,7 +147,7 @@ const Experience = () => {
                     </p>
                   </div>
 
-                  <div className='flex justify-between text-gray-600 dark:text-gray-400 mt-2 gap-2'>
+                  <div className='flex justify-between text-black-600 dark:text-black-400 mt-2 gap-2'>
                     <p className='font-semibold'>{experience.role}</p>
                     <p>{experience.fromTo}</p>
                   </div>
