@@ -55,31 +55,42 @@ const Intro = () => {
             ref={introRef}
           >
             <p className='py-2 text-2xl md:text-4xl font-semibold font-sans'>
-              Hi There !
+              Hi there, I'm Shif 🤝
             </p>
             {/* Profile Name */}
             <p className='text-2xl md:text-4xl py-2 font-semibold font-sans'>
-              I&apos;m a full stack
-              <span className='text-[#c72c6c] dark:text-[#07d0e5]'>
+              I&apos;m a
+              <span className='text-[#0c11ab] dark:text-[#0c11ab]'>
                 {" "}
-                developer <span className='text-white'>|</span>
+                Data<span className='text-white'>|</span>
               </span>
+              Scientist,
+              <span className='text-[#0c11ab] dark:text-[#0c11ab]'>
+                {" "}
+                Data<span className='text-white'>|</span>
+              </span>
+              Analyst,
+              <br></br>
+              Technical
+              <span className='text-[#0c11ab] dark:text-[#0c11ab]'>
+                {" "}
+                Writer,<span className='text-white'>|</span>
+              </span>
+              and
+              <span className='text-[#0c11ab] dark:text-[#0c11ab]'>
+                {" "}
+                Educator<span className='text-white'>|</span>
+              </span>
+
             </p>
             <div className='mt-5 md:mt-10 flex gap-3'>
-              {/* Hire Me Button */}
-              <Link
-                className='text-white text-xl font-semibold rounded bg-red-400 hover:bg-red-500 px-2 py-1'
-                href={"#getInTouch"}
-              >
-                Hire me
-              </Link>
-              {/* Download CV Button */}
+              {/* Resume Button */}
               <Link
                 className='text-xl font-semibold rounded border border-red-500 hover:text-white hover:bg-red-500 px-2 py-1'
-                href='https://drive.google.com/file/d/1uk-tv12y8PK-WrE4oX2xRtmSy4PUVSsE/view'
+                href='https://drive.google.com/file/d/13f_wkFv5v536YB5onTxRraPWiKfjUhSG/view?usp=drive_link'
                 target='_blank'
               >
-                Download CV
+                Resume
               </Link>
             </div>
           </div>
