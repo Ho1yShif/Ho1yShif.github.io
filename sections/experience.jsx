@@ -1,7 +1,6 @@
 "use client";
 import React, { Fragment, useState, useEffect, useRef } from "react";
 import { MdWork } from "react-icons/md";
-import { ImLocation } from "react-icons/im";
 import { BsArrowDownCircle } from "react-icons/bs";
 
 import { ExperienceData } from "@/constants/ExperienceData";
@@ -48,7 +47,7 @@ const Experience = () => {
                 className={`md:flex gap-2 items-end transition-all duration-500 ${
                   index !== 0 ? "mt-7" : ""
                 }`}
-                key={experience.companyName}
+                key={experience.organization}
               >
                 <div
                   className='md:w-[45%] cursor-pointer p-3 border border-zinc-300 dark:border-zinc-700 shadow-zinc-300 dark:shadow-zinc-700 shadow-sm rounded'
@@ -62,10 +61,7 @@ const Experience = () => {
                 >
                   <div className='flex justify-between gap-2'>
                     <p className='text-xl md:text-2xl font-bold text-red-600'>
-                      {experience.companyName}
-                    </p>
-                    <p className='flex gap-2 items-center text-blue-500'>
-                      <ImLocation /> {experience.location}
+                      {experience.organization}
                     </p>
                   </div>
 
@@ -106,7 +102,7 @@ const Experience = () => {
             ) : (
               <div
                 className='md:flex justify-end items-end mt-7 gap-2 transition-all duration-500 '
-                key={experience.companyName}
+                key={experience.organization}
               >
                 <button
                   className='hidden md:block'
@@ -137,10 +133,7 @@ const Experience = () => {
                 >
                   <div className='flex justify-between gap-2'>
                     <p className='text-xl md:text-2xl font-bold text-red-600'>
-                      {experience.companyName}
-                    </p>
-                    <p className='flex gap-2 items-center text-blue-500'>
-                      <ImLocation /> {experience.location}
+                      {experience.organization}
                     </p>
                   </div>
 
