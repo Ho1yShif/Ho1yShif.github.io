@@ -22,6 +22,8 @@ export const TechStackData = [
     icon: <SiPytorch className="md:text-4xl text-2xl" color="#EE4C2C" />
   },
   {
+    name: "separator" },
+  {
     name: "MySQL",
     icon: <GrMysql className="md:text-4xl text-2xl" color="#08668e" />
   },
@@ -37,6 +39,8 @@ export const TechStackData = [
     name: "ETL",
     icon: <BsTable className="md:text-4xl text-2xl" color="#000000" />
   },
+  {
+    name: "separator"},
   {
     name: "R",
     icon: <SiR className="md:text-4xl text-2xl" color="#276DC3" />
@@ -54,6 +58,9 @@ export const TechStackData = [
     icon: <FaLinux className="md:text-4xl text-2xl" color="#000000" />
   },
   {
+    name: "separator"
+  },
+  {
     name: "AWS S3 CLI",
     icon: <FaAws className="md:text-4xl text-2xl" color="#FF9900" />
   },
@@ -64,6 +71,9 @@ export const TechStackData = [
   {
     name: "GitHub",
     icon: <BsGithub className="md:text-4xl text-2xl" color="black" />
+  },
+  {
+    name: "separator"
   },
   {
     name: "Excel",
