@@ -152,7 +152,7 @@ const Experience = () => {
 
                   <div className='flex justify-between text-black-600 dark:text-black-400 mt-2 gap-2'>
                     <p className='font-semibold'>{experience.role}</p>
-                    <p>{experience.fromTo}</p>
+                    <p>{experience.from_date} – {experience.to_date}</p>
                   </div>
                   <p
                     className='mt-2 overflow-hidden transition-all duration-500 text-justify text-gray-700 dark:text-gray-500'
@@ -162,7 +162,17 @@ const Experience = () => {
                         : { maxHeight: "0px" }
                     }
                   >
-                    {experience.description}
+                    {experience.description.split('\n').map((line, i) => (
+                    <p key={i} className='mt-2 text-justify transition-all duration-500 overflow-hidden text-black dark:text-black'
+                      style={
+                        desc == experience.description
+                          ? { maxHeight: "400px" }
+                          : { maxHeight: "0px" }
+                      }
+                    >
+                      {line}
+                    </p>
+                  ))}
                   </p>
                 </div>
               </div>
