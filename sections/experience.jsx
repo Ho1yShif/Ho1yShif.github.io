@@ -60,25 +60,35 @@ const Experience = () => {
                   }
                 >
                   <div className='flex justify-between gap-2'>
-                    <p className='text-xl md:text-2xl font-bold text-red-600'>
+                    <p className='text-xl md:text-2xl font-bold text-[#0c11ab]'>
                       {experience.organization}
                     </p>
                   </div>
 
-                  <div className='flex justify-between text-gray-600 dark:text-gray-400 gap-2 mt-2'>
+                  <div className='flex justify-between text-gray-600 dark:text-black gap-2 mt-2'>
                     <p className='font-semibold'>{experience.role}</p>
                     <p>{experience.from_date} – {experience.to_date}</p>
                   </div>
 
                   <p
-                    className='mt-2 text-justify transition-all duration-500 overflow-hidden text-gray-700 dark:text-gray-500'
+                    className='mt-2 text-justify transition-all duration-500 overflow-hidden text-black dark:text-black'
                     style={
                       desc == experience.description
                         ? { maxHeight: "400px" }
                         : { maxHeight: "0px" }
                     }
                   >
-                    {experience.description}
+                    {experience.description.split('\n').map((line, i) => (
+                    <p key={i} className='mt-2 text-justify transition-all duration-500 overflow-hidden text-black dark:text-black'
+                      style={
+                        desc == experience.description
+                          ? { maxHeight: "400px" }
+                          : { maxHeight: "0px" }
+                      }
+                    >
+                      {line}
+                    </p>
+                  ))}
                   </p>
                 </div>
                 <button
@@ -132,7 +142,7 @@ const Experience = () => {
                   }
                 >
                   <div className='flex justify-between gap-2'>
-                    <p className='text-xl md:text-2xl font-bold text-red-600'>
+                    <p className='text-xl md:text-2xl font-bold text-[#0c11ab]'>
                       {experience.organization}
                     </p>
                   </div>
