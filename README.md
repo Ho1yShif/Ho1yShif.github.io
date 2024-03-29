@@ -13,4 +13,5 @@ A space to introduce myself and share my professional accomplishments
   - About Me
   - Writing
   - Top left logo
+  - Tab Icon
 - Once website looks good, remove as much of the old Shiv stuff as I can
