@@ -46,13 +46,13 @@ const Feedback = () => {
           <h3 className='text-center text-2xl font-bold dark:text-[#07d0e5] text-[#c72c6c]'>
             Feedback
           </h3>
-          <p>As a developer, you understand the importance of feedback.</p>
+          <p>Thanks for your sharing your feedback on my website!</p>
           <input
             className='dark:bg-black border dark:border-[#07d0e5] border-[#c72c6c] p-2 rounded'
             id='name'
             name='name'
             onChange={collectData}
-            placeholder='*Your Name'
+            placeholder='Name'
             value={formData.name || ""}
           />
           <input
@@ -60,40 +60,23 @@ const Feedback = () => {
             id='email'
             name='email'
             onChange={collectData}
-            placeholder='Your Email Address'
+            placeholder='Email Address'
             value={formData.email || ""}
-          />
-          <input
-            className='dark:bg-black border dark:border-[#07d0e5] border-[#c72c6c] p-2 rounded'
-            id='rating'
-            name='rating'
-            onChange={collectData}
-            placeholder='*Rating out of 5'
-            type='number'
-            value={formData.rating || ""}
           />
           <input
             className='dark:bg-black border dark:border-[#07d0e5] border-[#c72c6c] p-2 rounded'
             id='good'
             name='good'
             onChange={collectData}
-            placeholder='What is good about this Project ?'
+            placeholder='Feedback Topic'
             value={formData.good || ""}
-          />
-          <input
-            className='dark:bg-black border dark:border-[#07d0e5] border-[#c72c6c] p-2 rounded'
-            id='bad'
-            name='bad'
-            onChange={collectData}
-            placeholder='What is bad about this Project ?'
-            value={formData.bad || ""}
           />
           <textarea
             className='dark:bg-black border dark:border-[#07d0e5] border-[#c72c6c] p-2 rounded'
             id='suggetion'
             name='suggetion'
             onChange={collectData}
-            placeholder='What is Your Suggetion ?'
+            placeholder='Feedback Details'
             rows='3'
             value={formData.suggetion || ""}
           />
