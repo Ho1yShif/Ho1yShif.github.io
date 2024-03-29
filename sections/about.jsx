@@ -70,10 +70,22 @@ const About = () => {
             <p className='text-3xl text-center md:text-left font-semibold text-[#0c11ab] dark:text-[#0c11ab]'>
               Shifra Isaacs
             </p>
-            {/* Profil Name */}
+            {/* Profile Name */}
             <p className='text-center md:text-left text-black-600 mt-1'>
               Data Scientist | Data Analyst | Technical Writer | Educator
             </p>
+
+            <div className='mt-5 justify-evenly text-justify'>
+              <p className='text-black-600 dark:text-black-300'>
+              I'm a data professional looking to make a positive impact via data science, data analytics, and education.
+              My work experience includes client-facing data science at Annalect and JPMorgan Chase, technical writing at Crash Course and DataLemur, and analytics reporting at Prose.
+              </p>
+              <br></br>
+              <p>
+              When I'm not programming, you'll find me going to shows, playing music, writing, cooking, spending time with friends, or planning my next trip. Thanks for taking the time to learn more about me :)
+              </p>
+            </div>
+
             {/* Location */}
             <div className='flex flex-wrap justify-center md:justify-normal gap-5'>
               <div className='w-fit px-4 py-2 mt-5 border border-gray-400 rounded flex flex-col items-center gap-2'>
@@ -105,22 +117,12 @@ const About = () => {
                 </p>
               </div>
             </div>
-
-            <div className='mt-5 justify-evenly text-justify'>
-              <p className='text-black-600 dark:text-black-300'>
-              I'm a data professional looking to make a positive impact via data science, data analytics, and education.
-              My work experience includes client-facing data science at Annalect and JPMorgan Chase, technical writing at Crash Course and DataLemur, and analytics reporting at Prose.
-              </p>
-              <br></br>
-              <p>
-              When I'm not programming, you'll find me going to shows, playing music, writing, cooking, spending time with friends, or planning my next trip. Thanks for taking the time to learn more about me :)
-              </p>
-            </div>
           </div>
         </div>
       </section>
     </Fragment>
   );
+
 };
 
 export default About;
