@@ -60,7 +60,7 @@ const Feedback = () => {
             id='email'
             name='email'
             onChange={collectData}
-            placeholder='Email Address'
+            placeholder='Email'
             value={formData.email || ""}
           />
           <input
