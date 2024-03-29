@@ -16,6 +16,7 @@ const SocialMedia = () => {
             <div
               className={"p-2 rounded-full text-xl text-white"}
               style={{ background: social.color }}
+              title={social.name}
             >
               {social.icon}
             </div>
@@ -24,6 +25,7 @@ const SocialMedia = () => {
         <button
           className='p-2 rounded-full text-xl bg-black text-white'
           onClick={() => setShowModal(true)}
+          title="Submit Feedback"
         >
           <MdFeedback />
         </button>
