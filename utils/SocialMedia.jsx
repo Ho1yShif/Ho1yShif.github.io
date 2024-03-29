@@ -22,7 +22,7 @@ const SocialMedia = () => {
           </Link>
         ))}
         <button
-          className='p-2 rounded-full text-xl bg-[#f2925a] text-white'
+          className='p-2 rounded-full text-xl bg-black text-white'
           onClick={() => setShowModal(true)}
         >
           <MdFeedback />
