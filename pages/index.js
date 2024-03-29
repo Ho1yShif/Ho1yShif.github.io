@@ -56,8 +56,6 @@ const Home = () => {
           <Intro />
           {/* About */}
           <About />
-          {/* Skills  */}
-          <Skills />
           {/* Experience */}
           <Experience />
           {/* Projects */}
@@ -67,6 +65,8 @@ const Home = () => {
 
           {/* Apps */}
           <Apps />
+          {/* Skills  */}
+          <Skills />
           {/* Send Mail */}
           <SendMail />
           {/* Footer */}

@@ -12,5 +12,4 @@ A space to introduce myself and share my professional accomplishments
   - Tab Icon
   - Copyright at bottom
   - Make headshot not cut off on the right
-- Put Tech Skills on bottom
 - Once website looks good, remove as much of the old Shiv stuff as I can
