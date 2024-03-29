@@ -67,7 +67,7 @@ const Experience = () => {
 
                   <div className='flex justify-between text-gray-600 dark:text-gray-400 gap-2 mt-2'>
                     <p className='font-semibold'>{experience.role}</p>
-                    <p>{experience.fromTo}</p>
+                    <p>{experience.from_date} – {experience.to_date}</p>
                   </div>
 
                   <p
