@@ -1,131 +1,88 @@
-import { AiFillHtml5 } from "react-icons/ai";
-import {
-  SiNodedotjs,
-  SiNextdotjs,
-  SiVercel,
-  SiNetlify,
-  SiExpress,
-  SiRedux,
-  SiTailwindcss,
-  SiMui,
-  SiChakraui,
-  SiFirebase,
-  SiTypescript,
-  SiJquery
-} from "react-icons/si";
-import { DiJavascript1, DiReact, DiMongodb, DiSass } from "react-icons/di";
-import { BsGit, BsGithub } from "react-icons/bs";
-import { FaBootstrap, FaCss3Alt, FaAngular, FaPhp, FaShopify, FaJava } from "react-icons/fa";
-import { TbBrandReactNative } from "react-icons/tb";
+import { FaPython, FaJava, FaLinux, FaAws, FaJira } from 'react-icons/fa';
+import { BsGit, BsGithub, BsTable } from "react-icons/bs";
 import { GrMysql } from "react-icons/gr";
+import { SiPostgresql, SiAmazonaws, SiLua, SiMicrosoftexcel, SiPandas, SiNumpy, SiPytorch, SiR, SiConfluence } from "react-icons/si";
+import { BiTable } from "react-icons/bi";
 
 export const TechStackData = [
   {
-    name: "ReactJS",
-    icon: <DiReact className="md:text-4xl text-2xl" color="#53c1de" />,
+    name: "Python",
+    icon: <FaPython className="md:text-4xl text-2xl" color="#3776AB" />
   },
   {
-    name: "JavaScript",
-    icon: <DiJavascript1 className="md:text-4xl text-2xl" color="#ffd600" />,
+    name: "Pandas",
+    icon: <SiPandas className="md:text-4xl text-2xl" color="#150458" />
   },
   {
-    name: "Redux-toolkit",
-    icon: <SiRedux className="md:text-4xl text-2xl" color="#7e57c2" />,
+    name: "NumPy",
+    icon: <SiNumpy className="md:text-4xl text-2xl" color="#013243" />
   },
   {
-    name: "HTML5",
-    icon: <AiFillHtml5 className="md:text-4xl text-2xl" color="#fa6700" />,
-  },
-  {
-    name: "CSS3",
-    icon: <FaCss3Alt className="md:text-4xl text-2xl" color={"#039be5"} />,
-  },
-  {
-    name: "Bootstrap",
-    icon: <FaBootstrap className="md:text-4xl text-2xl" color="#673ab7" />,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: <SiTailwindcss className="md:text-4xl text-2xl" color="#4caf50" />,
-  },
-  {
-    name: "Meterial UI",
-    icon: <SiMui className="md:text-4xl text-2xl" color="#29b6f6" />,
-  },
-  {
-    name: "Chakra UI",
-    icon: <SiChakraui className="md:text-4xl text-2xsl" color="#50cbc0" />
-  },
-  {
-    name: "Vercel",
-    icon: <SiVercel className="dark:text-white text-black md:text-4xl text-2xl" />
-  },
-  {
-    name: "Github",
-    icon: <BsGithub className="md:text-4xl text-2xl" color="#c9d1d9" />
-  },
-  {
-    name: "NextJS",
-    icon: <SiNextdotjs className="md:text-4xl text-2xl dark:text-white text-black" />
-  },
-  {
-    name: "NodeJS",
-    icon: <SiNodedotjs className="md:text-4xl text-2xl" color="#4caf50" />,
-  },
-  {
-    name: "Express",
-    icon: <SiExpress className="md:text-4xl text-2xl" color="#555555" />,
-  },
-  {
-    name: "MongoDB",
-    icon: <DiMongodb className="md:text-4xl text-2xl" color="#4caf50" />,
-  },
-  {
-    name: "firebase",
-    icon: <SiFirebase className="md:text-4xl text-2xl" color="#ffcd33" />
-  },
-  {
-    name: "jQuery",
-    icon: <SiJquery className="md:text-4xl text-2xsl" color="#106dae" />
-  },
-  {
-    name: "netlify",
-    icon: <SiNetlify className="md:text-4xl text-2xl" color={"#31b5ba"} />
-  },
-  {
-    name: "Git",
-    icon: <BsGit className="md:text-4xl text-2xl" color="#f4511e" />
-  },
-  {
-    name: "TypeScript",
-    icon: <SiTypescript className="md:text-4xl text-2xl" color="#377cc8" />
-  },
-  {
-    name: "Angular",
-    icon: <FaAngular className="md:text-4xl text-2xl" color="#c50836" />
-  },
-  {
-    name: "React Native",
-    icon: <TbBrandReactNative className="md:text-4xl text-2xl" color="#66dbfb" />
-  },
-  {
-    name: "PHP",
-    icon: <FaPhp className="md:text-4xl text-2xl" color="#7b7fb5" />
-  },
-  {
-    name: "JAVA",
-    icon: <FaJava className="md:text-4xl text-2xl" color="#547c99" />
-  },
-  {
-    name: "SASS",
-    icon: <DiSass className="md:text-4xl text-2xl" color="#f06292" />,
+    name: "PyTorch",
+    icon: <SiPytorch className="md:text-4xl text-2xl" color="#EE4C2C" />
   },
   {
     name: "MySQL",
     icon: <GrMysql className="md:text-4xl text-2xl" color="#08668e" />
   },
   {
-    name: "Shopify",
-    icon: <FaShopify className="md:text-4xl text-2xl" color="#99c14f" />
+    name: "PostgreSQL",
+    icon: <SiPostgresql className="md:text-4xl text-2xl" color="#336791" />
+  },
+  {
+    name: "RedshiftSQL",
+    icon: <FaAws className="md:text-4xl text-2xl" color="#FF9900" />
+  },
+  {
+    name: "ETL",
+    icon: <BsTable className="md:text-4xl text-2xl" color="#000000" />
+  },
+  {
+    name: "R",
+    icon: <SiR className="md:text-4xl text-2xl" color="#276DC3" />
+  },
+  {
+    name: "Java",
+    icon: <FaJava className="md:text-4xl text-2xl" color="#276DC3" />
+  },
+  {
+    name: "Lua",
+    icon: <SiLua className="md:text-4xl text-2xl" color="#000080" />
+  },
+  {
+    name: "Linux",
+    icon: <FaLinux className="md:text-4xl text-2xl" color="#000000" />
+  },
+  {
+    name: "AWS S3 CLI",
+    icon: <FaAws className="md:text-4xl text-2xl" color="#FF9900" />
+  },
+  {
+    name: "Git",
+    icon: <BsGit className="md:text-4xl text-2xl" color="#f4511e" />
+  },
+  {
+    name: "GitHub",
+    icon: <BsGithub className="md:text-4xl text-2xl" color="black" />
+  },
+  {
+    name: "Excel",
+    icon: <SiMicrosoftexcel className="md:text-4xl text-2xl" color="#217346" />
+  },
+  {
+    name: "Looker",
+    icon: <BiTable className="md:text-4xl text-2xl" color="#000000" />
+  },
+  {
+    name: "Tableau",
+    icon: <BiTable className="md:text-4xl text-2xl" color="#E97627" />
+  },
+  {
+    name: "Jira",
+    icon: <FaJira className="md:text-4xl text-2xl" color="#0052CC" />
+  },
+  {
+    name: "Confluence",
+    icon: <SiConfluence className="md:text-4xl text-2xl" color="#172B4D" />
   }
 ];
