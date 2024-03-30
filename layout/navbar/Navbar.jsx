@@ -48,9 +48,9 @@ const Navbar = () => {
         style={{ top: top }}
       >
         {/* Name Logo */}
-        <p className='text-gray-400 flex'>
-          <span className='text-lg font-bold'>SHIV</span> <DiTechcrunch />
-        </p>
+      <Link href="/#home" className='text-gray-400 flex'>
+        <span className='text-lg font-bold'>Shifra Isaacs</span>
+      </Link>
         <div className='h-full flex gap-4'>
           {/* Navbar Links */}
           {NavbarMenu.map((navbar) => (
