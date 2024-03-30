@@ -94,7 +94,7 @@ const Intro = () => {
             "translate-x-[100px] transition-all opacity-0 duration-700 w-[180px] h-[500px] md:w-[400px] md:h-[400px] bg-contain m-auto md:m-0 mt-[40px] md:mt-0 bg-no-repeat"
           }
           ref={profileRef}
-          style={{ backgroundImage: "url(/portfolio/images/shif_images/Circle_Headshot.svg)" }}
+          style={{ backgroundImage: "url(/images/shif_images/Circle_Headshot.svg)" }}
         />
         </div>
       </section>

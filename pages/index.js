@@ -32,9 +32,9 @@ const Home = () => {
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
         {/* <!-- Favicon --> */}
-        <link rel="apple-touch-icon" sizes="180x180" href="/portfolio/images/favicon/apple-touch-icon.png"></link>
-        <link rel="icon" type="image/png" sizes="32x32" href="/portfolio/images/favicon/favicon-32x32.png"></link>
-        <link rel="icon" type="image/png" sizes="16x16" href="/portfolio/images/favicon/favicon-16x16.png"></link>
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png"></link>
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png"></link>
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png"></link>
         <link rel="manifest" href="/site.webmanifest"></link>
 
       </Head>

@@ -21,7 +21,7 @@ const SocialMedia = () => {
             <MdEmail />
           </button>
         </a>
-        <a href="https://drive.google.com/file/d/13f_wkFv5v536YB5onTxRraPWiKfjUhSG/view" style={{ color: 'inherit', textDecoration: 'none' }}>
+        <a href="https://drive.google.com/file/d/1oMdl7UvjOlYI3hGMk8GdKUyeiAy_zg63/view?usp=drive_link" style={{ color: 'inherit', textDecoration: 'none' }}>
           <button
             className='p-2 rounded-full text-5xl bg-black text-white'
             onClick={() => setShowModal(true)}
