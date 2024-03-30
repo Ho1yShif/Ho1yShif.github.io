@@ -1,7 +1,7 @@
 import React, { Fragment, useContext } from "react";
 import Link from "next/link";
-import { MdEmail, MdPageview } from "react-icons/md";
-import { FaFileAlt } from "react-icons/fa";
+import { MdEmail} from "react-icons/md";
+import { IoDocumentText } from "react-icons/io5";
 
 import { SocialMediaData } from "@/constants/SocialMediaData";
 import { PortfolioContext } from "@/contextApi/PortfolioContext";
@@ -27,7 +27,7 @@ const SocialMedia = () => {
             onClick={() => setShowModal(true)}
             title="Resume"
           >
-            <FaFileAlt />
+            <IoDocumentText />
           </button>
         </a>
         {SocialMediaData.map((social, key) => (
