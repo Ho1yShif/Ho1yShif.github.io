@@ -16,6 +16,7 @@ const nextConfig = {
     }
     return config;
   },
+  webpack5: true,
   swcMinify: true
 }
 
