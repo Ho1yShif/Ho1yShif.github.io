@@ -59,7 +59,7 @@ const Navbar = () => {
               href={navbar.link}
               key={navbar.name}
             >
-              <div className='h-full pb-1 hover:pb-0 px-2 flex items-center hover:border-b-4  border-[#c72c6c] dark:border-[#07d0e5] transition-all'>
+              <div className='h-full pb-1 hover:pb-0 px-2 flex items-center hover:border-b-4  border-white dark:border-white transition-all'>
                 {navbar.name}
               </div>
             </Link>
