@@ -57,8 +57,6 @@ const Home = () => {
           <Experience />
           {/* Projects */}
           <Projects />
-          {/* SocialMedia */}
-          <SocialMedia />
           {/* Skills  */}
           <Skills />
           {/* Footer */}
