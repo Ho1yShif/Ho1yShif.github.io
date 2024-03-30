@@ -6,7 +6,7 @@ A space to introduce myself and share my professional accomplishments
   - Or find a way to search my Google drive for the name so it auto updates
 - Fill website with my content:
   - Add poetry/articles/non technical writing?
-  - Tab Icon
+  - Use my own favicon
   - Set up hyperlinks for links inside work exepreience section
   - Separate work experience section into Tech Writing and Data work with two buttons that render separate data
   - Remove separation lines between sections
