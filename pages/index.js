@@ -9,6 +9,7 @@ const Footer = dynamic(() => import("@/layout/footer/Footer"))
 const Intro = dynamic(() => import("@/sections/Intro"))
 const Skills = dynamic(() => import("@/sections/Skills"))
 const Projects = dynamic(() => import("@/sections/Projects"))
+const ThankYou = dynamic(() => import("@/sections/ThankYou"))
 const SocialMedia = dynamic(() => import("@/utils/SocialMedia"))
 const ChatSystem = dynamic(() => import("@/utils/ChatSystem"))
 
@@ -59,6 +60,8 @@ const Home = () => {
           <Projects />
           {/* Skills  */}
           <Skills />
+          {/* Thank You Section */}
+          <ThankYou />
           {/* Footer */}
           <Footer />
           <div className="z-40">
@@ -71,4 +74,4 @@ const Home = () => {
   );
 }
 
-export default Home
+export default Home;
