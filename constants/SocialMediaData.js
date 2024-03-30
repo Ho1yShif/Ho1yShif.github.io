@@ -1,6 +1,6 @@
 import { BsGithub } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
-import { IoClose } from "react-icons/io5";
+import { FaXTwitter } from "react-icons/fa6";
 
 export const SocialMediaData = [
   {
@@ -16,7 +16,7 @@ export const SocialMediaData = [
     link: "https://github.com/Ho1yShif/",
   },
   {
-    icon: <IoClose />,
+    icon: <FaXTwitter />,
     name: "X",
     color: "#0f0f0f",
     link: "https://twitter.com/holyshif?lang=en",
