@@ -8,7 +8,7 @@ A space to introduce myself and share my professional accomplishments
   - Add poetry/articles/non technical writing?
   - Use my own favicon
   - Set up hyperlinks for links inside work exepreience section
-  - Separate work experience section into Tech Writing and Data work with two buttons that render separate data
+  - Add tags for tech writing and data on the work expereience section, similarto the projects
   - Remove separation lines between sections
   - Add Thank you section: Nick, Constant, Brian, Zack, Mom
 - Once website looks good, remove as much of the old Shiv stuff as I can
