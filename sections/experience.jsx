@@ -83,6 +83,19 @@ const Experience = () => {
             </p>
           ))}
           </div>
+
+          {/* Career Track */}
+          <div className='flex flex-wrap gap-2 mt-4'>
+            {experience.career_track.map((track) => (
+              <p
+                className='px-1 text-sm rounded bg-[#0c11ab] text-white'
+                key={track}
+              >
+                {track}
+              </p>
+            ))}
+          </div>
+
         </div>
         <button
           className='transition-all duration-500 hidden md:block'
