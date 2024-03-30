@@ -7,7 +7,7 @@ A space to introduce myself and share my professional accomplishments
 - Fill website with my content:
   - Add poetry/articles/non technical writing?
   - Use my own favicon
-  - Set up hyperlinks for links inside work exepreience section
-  - Remove separation lines between sections
-  - Add Thank you section: Nick, Constant, Brian, Zack, Mom
+  - Set up hyperlinks for links inside work exeperience section
+  - Center Acknowledgements people
+  - Update metadata
 - Once website looks good, remove as much of the old Shiv stuff as I can
