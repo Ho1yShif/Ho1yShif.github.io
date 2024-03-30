@@ -73,7 +73,7 @@ const Experience = () => {
                     <p>{experience.from_date} – {experience.to_date}</p>
                   </div>
 
-                  <p
+                  <div
                     className='mt-2 text-justify transition-all duration-500 overflow-hidden text-black dark:text-black'
                     style={
                       desc == experience.description
@@ -82,17 +82,11 @@ const Experience = () => {
                     }
                   >
                     {experience.description.split('\n').map((line, i) => (
-                    <p key={i} className='mt-2 text-justify transition-all duration-500 overflow-hidden text-black dark:text-black'
-                      style={
-                        desc == experience.description
-                          ? { maxHeight: "400px" }
-                          : { maxHeight: "0px" }
-                      }
-                    >
+                    <Fragment key={i}>
                       {line}
-                    </p>
+                    </Fragment>
                   ))}
-                  </p>
+                  </div>
                 </div>
                 <button
                   className='transition-all duration-500 hidden md:block'
@@ -154,7 +148,7 @@ const Experience = () => {
                     <p className='font-semibold'>{experience.role}</p>
                     <p>{experience.from_date} – {experience.to_date}</p>
                   </div>
-                  <p
+                  <div
                     className='mt-2 overflow-hidden transition-all duration-500 text-justify text-gray-700 dark:text-gray-500'
                     style={
                       desc == experience.description
@@ -163,17 +157,11 @@ const Experience = () => {
                     }
                   >
                     {experience.description.split('\n').map((line, i) => (
-                    <p key={i} className='mt-2 text-justify transition-all duration-500 overflow-hidden text-black dark:text-black'
-                      style={
-                        desc == experience.description
-                          ? { maxHeight: "400px" }
-                          : { maxHeight: "0px" }
-                      }
-                    >
+                    <Fragment key={i}>
                       {line}
-                    </p>
+                    </Fragment>
                   ))}
-                  </p>
+                  </div>
                 </div>
               </div>
             )
