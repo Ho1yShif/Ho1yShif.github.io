@@ -11,6 +11,15 @@ const SocialMedia = () => {
   return (
     <Fragment>
       <div className='absolute left-14 bottom-10 flex flex-col gap-4 z-10'>
+        <a href="mailto:shifraisaacs@gmail.com" style={{ color: 'inherit', textDecoration: 'none' }}>
+          <button
+            className='p-2 rounded-full text-xl bg-black text-white'
+            onClick={() => setShowModal(true)}
+            title="Email"
+          >
+            <MdEmail />
+          </button>
+        </a>
         {SocialMediaData.map((social, key) => (
           <Link className='w-fit' href={social.link} key={key}>
             <div
@@ -22,15 +31,6 @@ const SocialMedia = () => {
             </div>
           </Link>
         ))}
-        <a href="mailto:shifraisaacs@gmail.com" style={{ color: 'inherit', textDecoration: 'none' }}>
-          <button
-            className='p-2 rounded-full text-xl bg-black text-white'
-            onClick={() => setShowModal(true)}
-            title="Email"
-          >
-            <MdEmail />
-          </button>
-        </a>
       </div>
     </Fragment>
   );
