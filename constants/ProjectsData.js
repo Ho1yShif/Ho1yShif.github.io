@@ -55,7 +55,7 @@ export const ProjectsData = [
         projectName: "Dinner Planner",
         githubUrl: "https://github.com/Ho1yShif/dinner",
         projectImage: {
-            imageUrl: "/images/shif_images/Dinner_Planner.jpeg"
+            imageUrl: "/images/shif_images/Dinner.png"
         },
         techs: ["Python", "GCP", "APIs"]
     }
