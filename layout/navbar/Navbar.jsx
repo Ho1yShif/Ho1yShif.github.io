@@ -6,8 +6,6 @@ import MobileNavbar from "./SidebarMobile";
 import { NavbarMenu } from "./NavbarItems";
 import NavbarMobile from "./NavbarMobile";
 
-import { ThemeContext } from "@/context/themeContext";
-
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
