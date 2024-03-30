@@ -78,9 +78,9 @@ const Experience = () => {
             }
           >
             {experience.description.split('\n').map((line, i) => (
-            <Fragment key={i}>
+            <p key={i}>
               {line}
-            </Fragment>
+            </p>
           ))}
           </div>
         </div>
