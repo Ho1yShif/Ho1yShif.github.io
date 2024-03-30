@@ -65,7 +65,7 @@ const About = () => {
           {/* Image */}
           <div
             className={
-              "translate-x-[-500px] transition-all opacity-0 duration-700 md:w-[400px] md:h-[500px] bg-contain m-auto md:m-0 mt-[40px] md:mt-0 bg-no-repeat"
+              "translate-x-[-500px] transition-all opacity-0 duration-700 w-[400px] h-[500px] md:w-[400px] md:h-[500px] bg-contain m-auto md:m-0 mt-[40px] md:mt-0 bg-no-repeat"
             }
             ref={profile2Ref}
             style={{ backgroundImage: "url(/images/shif_images/ShifraFountain.jpg)" }}
