@@ -2,8 +2,8 @@ import { Fragment } from "react";
 import Head from "next/head";
 import dynamic from "next/dynamic";
 
-import About from "@/sections/about";
-import Experience from "@/sections/experience";
+import About from "@/sections/About";
+import Experience from "@/sections/Experience";
 const Navbar = dynamic(() => import("@/layout/navbar/Navbar"))
 const Footer = dynamic(() => import("@/layout/footer/Footer"))
 const Intro = dynamic(() => import("@/sections/Intro"))
