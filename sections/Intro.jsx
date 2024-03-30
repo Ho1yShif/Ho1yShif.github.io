@@ -1,7 +1,7 @@
 "use client";
 import React, { Fragment, useEffect, useRef, useState } from "react";
 import Head from "next/head";
-import Link from "next/link";
+import SocialMedia from '../utils/SocialMedia';
 
 const Intro = () => {
   const [isHome, setIsHome] = useState(false);
@@ -43,7 +43,7 @@ const Intro = () => {
   return (
     <Fragment>
       <Head>
-        <title>Shiv&apos;s Portfolio</title>
+        <title>Shifra&apos;s Portfolio</title>
       </Head>
       <section id='home'>
         <div
@@ -82,7 +82,11 @@ const Intro = () => {
                 Educator<span className='text-white'>|</span>
               </span>
             </p>
+            <div style={{ marginTop: '10em' }}>
+              <SocialMedia />
+            </div>
           </div>
+
 
           {/* Image */}
           <div
