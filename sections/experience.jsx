@@ -41,131 +41,68 @@ const Experience = () => {
           className='pop-down-child pb-[30px] px-[20px] shadow-sm shadow-zinc-300 dark:shadow-zinc-700'
           ref={expeBoxesRef}
         >
-          {ExperienceData.map((experience, index) =>
-            experience.side === "left" ? (
-              // Render JSX if experience.side is left
-              <div
-                className={`md:flex gap-2 items-end transition-all duration-500 ${
-                  index !== 0 ? "mt-7" : ""
-                }`}
-                key={experience.organization}
-              >
-                <div
-                  className='md:w-[70%] cursor-pointer p-3 border border-zinc-300 dark:border-zinc-700 shadow-zinc-300 dark:shadow-zinc-700 shadow-sm rounded'
-                  onClick={() =>
-                    setDesc(
-                      desc === experience.description
-                        ? ""
-                        :
-                        // Render JSX if experience.side is right
-                    experience.description
-                    )
-                  }
-                >
-                  <div className='flex justify-between gap-2'>
-                    <p className='text-xl md:text-2xl font-bold text-[#0c11ab]'>
-                      {experience.organization}
-                    </p>
-                  </div>
-
-                  <div className='flex justify-between text-black-600 dark:text-black gap-2 mt-2'>
-                    <p className='font-semibold'>{experience.role}</p>
-                    <p>{experience.from_date} – {experience.to_date}</p>
-                  </div>
-
-                  <div
-                    className='mt-2 text-justify transition-all duration-500 overflow-hidden text-black dark:text-black'
-                    style={
-                      desc == experience.description
-                        ? { maxHeight: "400px" }
-                        : { maxHeight: "0px" }
-                    }
-                  >
-                    {experience.description.split('\n').map((line, i) => (
-                    <Fragment key={i}>
-                      {line}
-                    </Fragment>
-                  ))}
-                  </div>
-                </div>
-                <button
-                  className='transition-all duration-500 hidden md:block'
-                  onClick={() =>
-                    setDesc(
-                      desc === experience.description
-                        ? ""
-                        : experience.description
-                    )
-                  }
-                  style={
-                    desc === experience.description
-                      ? { transform: "rotate(180deg)" }
-                      : {}
-                  }
-                >
-                  <BsArrowDownCircle size={22} />
-                </button>
-              </div>
-            ) : (
-              <div
-                className='md:flex justify-end items-end mt-7 gap-2 transition-all duration-500 '
-                key={experience.organization}
-              >
-                <button
-                  className='hidden md:block'
-                  onClick={() =>
-                    setDesc(
-                      desc === experience.description
-                        ? ""
-                        : experience.description
-                    )
-                  }
-                  style={
-                    desc === experience.description
-                      ? { transform: "rotate(180deg)" }
-                      : {}
-                  }
-                >
-                  <BsArrowDownCircle size={22} />
-                </button>
-                <div
-                  className='md:w-[70%] cursor-pointer  transition-all duration-500 p-3 border border-zinc-300 dark:border-zinc-700 shadow-zinc-300 dark:shadow-zinc-700 shadow-smrounded'
-                  onClick={() =>
-                    setDesc(
-                      desc === experience.description
-                        ? ""
-                        : experience.description
-                    )
-                  }
-                >
-                  <div className='flex justify-between gap-2'>
-                    <p className='text-xl md:text-2xl font-bold text-[#0c11ab]'>
-                      {experience.organization}
-                    </p>
-                  </div>
-
-                  <div className='flex justify-between text-black-600 dark:text-black-400 mt-2 gap-2'>
-                    <p className='font-semibold'>{experience.role}</p>
-                    <p>{experience.from_date} – {experience.to_date}</p>
-                  </div>
-                  <div
-                    className='mt-2 overflow-hidden transition-all duration-500 text-justify text-black dark:text-black'
-                    style={
-                      desc == experience.description
-                        ? { maxHeight: "400px" }
-                        : { maxHeight: "0px" }
-                    }
-                  >
-                    {experience.description.split('\n').map((line, i) => (
-                    <Fragment key={i}>
-                      {line}
-                    </Fragment>
-                  ))}
-                  </div>
-                </div>
-              </div>
+          {ExperienceData.map((experience, index) => (
+      <div
+        className={`md:flex gap-2 items-center transition-all duration-500 ${
+          index !== 0 ? "mt-7" : ""
+        } justify-center`}
+        key={experience.organization}
+      >
+        <div
+          className='md:w-[50%] cursor-pointer p-3 border border-zinc-300 dark:border-zinc-700 shadow-zinc-300 dark:shadow-zinc-700 shadow-sm rounded'
+          onClick={() =>
+            setDesc(
+              desc === experience.description
+                ? ""
+                : experience.description
             )
-          )}
+          }
+        >
+          <div className='flex justify-between gap-2'>
+            <p className='text-xl md:text-2xl font-bold text-[#0c11ab]'>
+              {experience.organization}
+            </p>
+          </div>
+
+          <div className='flex justify-between text-black-600 dark:text-black gap-2 mt-2'>
+            <p className='font-semibold'>{experience.role}</p>
+            <p>{experience.from_date} – {experience.to_date}</p>
+          </div>
+
+          <div
+            className='mt-2 text-justify transition-all duration-500 overflow-hidden text-black dark:text-black'
+            style={
+              desc == experience.description
+                ? { maxHeight: "400px" }
+                : { maxHeight: "0px" }
+            }
+          >
+            {experience.description.split('\n').map((line, i) => (
+            <Fragment key={i}>
+              {line}
+            </Fragment>
+          ))}
+          </div>
+        </div>
+        <button
+          className='transition-all duration-500 hidden md:block'
+          onClick={() =>
+            setDesc(
+              desc === experience.description
+                ? ""
+                : experience.description
+            )
+          }
+          style={
+            desc === experience.description
+              ? { transform: "rotate(180deg)" }
+              : {}
+          }
+        >
+          <BsArrowDownCircle size={22} />
+        </button>
+      </div>
+    ))}
         </div>
       </section>
     </Fragment>
