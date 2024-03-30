@@ -24,7 +24,7 @@ export const ProjectsData = [
         projectImage: {
             imageUrl: "/images/shif_images/FOB.jpg"
         },
-        techs: ["Python", "Pandas", "Numpy", "PyTorch", "Scikit-learn", "APIs", "Logistic Regression"]
+        techs: ["Python", "Pandas", "NumPy", "PyTorch", "Scikit-learn", "APIs", "Logistic Regression"]
     },
     {
         projectName: "Lua Learning",
