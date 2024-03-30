@@ -1,6 +1,6 @@
 import React, { Fragment, useContext } from "react";
 import Link from "next/link";
-import { MdFeedback } from "react-icons/md";
+import { MdFeedback,  MdEmail } from "react-icons/md";
 
 import { SocialMediaData } from "@/constants/SocialMediaData";
 import { PortfolioContext } from "@/contextApi/PortfolioContext";
@@ -22,13 +22,15 @@ const SocialMedia = () => {
             </div>
           </Link>
         ))}
-        <button
-          className='p-2 rounded-full text-xl bg-black text-white'
-          onClick={() => setShowModal(true)}
-          title="Submit Feedback"
-        >
-          <MdFeedback />
-        </button>
+        <a href="mailto:shifraisaacs@gmail.com" style={{ color: 'inherit', textDecoration: 'none' }}>
+          <button
+            className='p-2 rounded-full text-xl bg-black text-white'
+            onClick={() => setShowModal(true)}
+            title="Email"
+          >
+            <MdEmail />
+          </button>
+        </a>
       </div>
     </Fragment>
   );
