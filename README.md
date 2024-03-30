@@ -10,7 +10,6 @@ A space to introduce myself and share my professional accomplishments
   - Top left logo
   - Tab Icon
   - Copyright at bottom
-  - Make headshot not cut off on the right
   - Set up hyperlinks for links inside work exepreience section
   - Separate work experience section into Tech Writing and Data work with two buttons that render separate data
   - Remove separation lines between sections
