@@ -64,7 +64,7 @@ const Project = () => {
                 }}
               >
                 <div
-                  className='bg-red-600 p-1 cursor-pointer'
+                  className='bg-black text-white p-1 cursor-pointer'
                   onMouseLeave={() => setHeight1("")}
                   onMouseMove={() => setHeight1(project.projectName)}
                 >
@@ -112,7 +112,7 @@ const Project = () => {
               <div className='flex flex-wrap gap-2 mt-4'>
                 {project.techs.map((tech) => (
                   <p
-                    className='px-1 text-sm rounded bg-blue-500 text-white'
+                    className='px-1 text-sm rounded bg-[#0c11ab] text-white'
                     key={tech}
                   >
                     {tech}
