@@ -51,7 +51,7 @@ const Experience = () => {
                 key={experience.organization}
               >
                 <div
-                  className='md:w-[50%] cursor-pointer p-3 border border-zinc-300 dark:border-zinc-700 shadow-zinc-300 dark:shadow-zinc-700 shadow-sm rounded'
+                  className='md:w-[70%] cursor-pointer p-3 border border-zinc-300 dark:border-zinc-700 shadow-zinc-300 dark:shadow-zinc-700 shadow-sm rounded'
                   onClick={() =>
                     setDesc(
                       desc === experience.description
@@ -129,7 +129,7 @@ const Experience = () => {
                   <BsArrowDownCircle size={22} />
                 </button>
                 <div
-                  className='md:w-[50%] cursor-pointer  transition-all duration-500 p-3 border border-zinc-300 dark:border-zinc-700 shadow-zinc-300 dark:shadow-zinc-700 shadow-smrounded'
+                  className='md:w-[70%] cursor-pointer  transition-all duration-500 p-3 border border-zinc-300 dark:border-zinc-700 shadow-zinc-300 dark:shadow-zinc-700 shadow-smrounded'
                   onClick={() =>
                     setDesc(
                       desc === experience.description
@@ -149,7 +149,7 @@ const Experience = () => {
                     <p>{experience.from_date} – {experience.to_date}</p>
                   </div>
                   <div
-                    className='mt-2 overflow-hidden transition-all duration-500 text-justify text-gray-700 dark:text-gray-500'
+                    className='mt-2 overflow-hidden transition-all duration-500 text-justify text-black dark:text-black'
                     style={
                       desc == experience.description
                         ? { maxHeight: "400px" }
