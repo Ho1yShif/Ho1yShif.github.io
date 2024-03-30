@@ -16,6 +16,38 @@ export const ExperienceData = [
       `
   },
   {
+    organization: "Crash Course (Complexly)",
+    role: "Technical Script Writer",
+    from_date: "November 2022",
+    to_date: "November 2023",
+    description:
+      `● Collaborated with YouTube and Arizona Statue University to write 9 episodes of Crash Course Study Hall: Intro to Java Code and Programming For Beginners, hosted by Sabrina Cruz
+       ● Crash Course Playlist Link:
+       https://www.youtube.com/watch?v=yBFu9HxiD88&list=PLID58IQe16nFgbHGRCj5QEXKUpVIilpDN&index=29
+      `
+  },
+  {
+    organization: "Torpedo Software LLC",
+    role: "Technical Curriculum Writer",
+    from_date: "January 2023",
+    to_date: "Current",
+    description:
+      `● Designing curriculum and writing lessons for Lua Learning, an award-winning Roblox game with 4M+ visits and 115K monthly active users
+       ● Lua Learning Link: https://www.roblox.com/games/1334669864/Lua-Learning
+      `
+  },
+  {
+    organization: "DataLemur.com",
+    role: "Technical Writer & Product Manager",
+    from_date: "August 2022",
+    to_date: "January 2023",
+    description:
+      `● Supported author Nick Singh’s data science platform and achieved 100K+ users within 10 months
+      ● Documented, tested, and improved 200+ SQL and mathematics problems, solutions, and hints
+      ● Instituted metadata tagging system and SQL style conventions to standardize the platform
+      `
+  },
+  {
     organization: "JPMorgan Chase & Co.",
     role: "AI & Data Science Summer Analyst",
     from_date: "June 2022",
@@ -35,38 +67,6 @@ export const ExperienceData = [
       `● Built last-click attribution model in BigQuery to track $40M annual marketing spend across channels
       ● Automated Looker dashboard based on attribution model to report WoW and MoM channel metrics
       ● Tested gift products to determine their impact on customer churn and drive stakeholder decisions
-      `
-  },
-  {
-    organization: "Torpedo Software LLC",
-    role: "Technical Curriculum Writer",
-    from_date: "January 2023",
-    to_date: "Current",
-    description:
-      `● Designing curriculum and writing lessons for Lua Learning, an award-winning Roblox game with 4M+ visits and 115K monthly active users
-       ● Lua Learning Link: https://www.roblox.com/games/1334669864/Lua-Learning
-      `
-  },
-  {
-    organization: "Crash Course (Complexly)",
-    role: "Technical Script Writer",
-    from_date: "November 2022",
-    to_date: "November 2023",
-    description:
-      `● Collaborated with YouTube and Arizona Statue University to write 9 episodes of Crash Course Study Hall: Intro to Java Code and Programming For Beginners, hosted by Sabrina Cruz
-       ● Crash Course Playlist Link:
-       https://www.youtube.com/watch?v=yBFu9HxiD88&list=PLID58IQe16nFgbHGRCj5QEXKUpVIilpDN&index=29
-      `
-  },
-  {
-    organization: "DataLemur.com",
-    role: "Technical Writer & Product Manager",
-    from_date: "August 2022",
-    to_date: "January 2023",
-    description:
-      `● Supported author Nick Singh’s data science platform and achieved 100K+ users within 10 months
-      ● Documented, tested, and improved 200+ SQL and mathematics problems, solutions, and hints
-      ● Instituted metadata tagging system and SQL style conventions to standardize the platform
       `
   },
   {
