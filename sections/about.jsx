@@ -71,7 +71,7 @@ const About = () => {
               Shifra Isaacs
             </p>
             {/* Profile Name */}
-            <p className='text-center md:text-left text-black-600 mt-1'>
+            <p className='text-center md:text-left font-semibold text-black-600 mt-1'>
               Data Scientist | Data Analyst | Technical Writer | Educator
             </p>
 
