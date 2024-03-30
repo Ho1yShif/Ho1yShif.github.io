@@ -1,5 +1,5 @@
 "use client";
-import React, { Fragment, useContext, useEffect, useState } from "react";
+import React, { Fragment, useContext, useState } from "react";
 import Link from "next/link";
 import { DiTechcrunch } from "react-icons/di";
 import { BsFillLightningChargeFill } from "react-icons/bs";
@@ -12,40 +12,16 @@ import NavbarMobile from "./NavbarMobile";
 import { ThemeContext } from "@/context/themeContext";
 
 const Navbar = () => {
-  const [top, setTop] = useState("0");
   const [showMenu, setShowMenu] = useState(false);
 
   const { setThemeFun, theme } = useContext(ThemeContext);
-
-  // Logic for Navbar Hide and Show on scrolling behaviour
-  useEffect(() => {
-    let prevScrollPos = window.scrollY;
-
-    const handleScroll = () => {
-      const currentScrollPos = window.scrollY;
-
-      if (prevScrollPos > currentScrollPos) {
-        setTop("0"); // Show the navbar
-      } else {
-        setTop("-80px"); // Hide the navbar
-      }
-
-      prevScrollPos = currentScrollPos;
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      // Cleanup: Remove the event listener when the component unmounts
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
   return (
     <Fragment>
       {/* Desktop Header */}
       <div
         className='w-full h-[70px] px-8 bg-black dark:bg-black backdrop-filter backdrop-blur-lg hidden md:flex justify-between items-center gap-4 dark:shadow-gray-800 fixed z-10 transition-all duration-500'
-        style={{ top: top }}
+        style={{ top: "0" }}
       >
         {/* Name Logo */}
         <p className='text-gray-400 flex'>
@@ -59,7 +35,7 @@ const Navbar = () => {
               href={navbar.link}
               key={navbar.name}
             >
-              <div className='h-full pb-1 hover:pb-0 px-2 flex items-center hover:border-b-4  border-[#c72c6c] dark:border-[#07d0e5] transition-all'>
+              <div className='h-full pb-1 hover:pb-0 px-2 flex items-center hover:border-b-4  border-white dark:border-white transition-all'>
                 {navbar.name}
               </div>
             </Link>
@@ -73,7 +49,7 @@ const Navbar = () => {
         setThemeFun={setThemeFun}
         showMenu={showMenu}
         theme={theme}
-        top={top}
+        top="0"
       />
 
       {/* SideMenu For Mobile Screen */}
