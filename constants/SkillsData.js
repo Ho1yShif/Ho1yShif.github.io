@@ -1,5 +1,6 @@
 import { FaPython, FaJava, FaLinux, FaAws, FaJira } from 'react-icons/fa';
 import { BsGit, BsGithub, BsTable } from "react-icons/bs";
+import { LuTestTubes } from "react-icons/lu";
 import { GrMysql } from "react-icons/gr";
 import { SiPostgresql, SiAmazonredshift, SiAmazons3, SiTableau, SiLooker, SiLua, SiMicrosoftexcel, SiGooglebigquery, SiPandas, SiNumpy, SiPytorch, SiR, SiConfluence } from "react-icons/si";
 
@@ -49,6 +50,10 @@ export const TechStackData = [
   {
     name: "BigQuery",
     icon: <SiGooglebigquery className="md:text-4xl text-2xl" color="#4285F4" />
+  },
+  {
+    name: "A/B Testing",
+    icon: <LuTestTubes className="md:text-4xl text-2xl" color="black" />
   },
   {
     name: "ETL",
