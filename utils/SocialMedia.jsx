@@ -14,7 +14,7 @@ const SocialMedia = () => {
       <div className='absolute left-14 bottom-10 flex gap-4 z-10'>
         <a href="mailto:shifraisaacs@gmail.com" style={{ color: 'inherit', textDecoration: 'none' }}>
           <button
-            className='p-2 rounded-full text-4xl bg-black text-white'
+            className='p-2 rounded-full text-5xl bg-black text-white'
             onClick={() => setShowModal(true)}
             title="Email"
           >
@@ -23,7 +23,7 @@ const SocialMedia = () => {
         </a>
         <a href="https://drive.google.com/file/d/13f_wkFv5v536YB5onTxRraPWiKfjUhSG/view" style={{ color: 'inherit', textDecoration: 'none' }}>
           <button
-            className='p-2 rounded-full text-4xl bg-black text-white'
+            className='p-2 rounded-full text-5xl bg-black text-white'
             onClick={() => setShowModal(true)}
             title="Resume"
           >
@@ -33,7 +33,7 @@ const SocialMedia = () => {
         {SocialMediaData.map((social, key) => (
           <Link className='w-fit' href={social.link} key={key}>
             <div
-              className={"p-2 rounded-full text-4xl text-white"}
+              className={"p-2 rounded-full text-5xl text-white"}
               style={{ background: social.color }}
               title={social.name}
             >
