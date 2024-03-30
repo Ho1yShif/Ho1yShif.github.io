@@ -70,7 +70,7 @@ export const ExperienceData = [
     description:
       `● Supported author Nick Singh’s data science platform and achieved 100K+ users within 10 months
       ● Documented, tested, and improved 200+ SQL and mathematics problems, solutions, and hints
-      ● Instituted metadata tagging system and SQL style conventions to standardize the platform● Supported author Nick Singh’s data science platform and achieved 100K+ users within 10 months ● Documented, tested, and improved 200+ SQL and mathematics problems, solutions, and hints ● Instituted metadata tagging system and SQL style conventions to standardize the platform
+      ● Instituted metadata tagging system and SQL style conventions to standardize the platform
       `,
     side: "right",
   },
