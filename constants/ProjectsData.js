@@ -13,7 +13,7 @@ export const ProjectsData = [
         liveUrl: "DataLemur.com",
         githubUrl: "",
         projectImage: {
-            imageUrl: "/images/shif_images/DataLemur.jpeg"
+            imageUrl: "/images/shif_images/DataLemur.png"
         },
         techs: ["PostgreSQL", "Technical Writing", "Data Analysis", "Data Science", "Mathematics", "Probability"]
     },
@@ -51,4 +51,12 @@ export const ProjectsData = [
         },
         techs: ["Python", "Time Series", "ArcGIS", "XGBoost", "LSTM"]
     },
+    {
+        projectName: "Dinner Planner",
+        githubUrl: "https://github.com/Ho1yShif/dinner",
+        projectImage: {
+            imageUrl: "/images/shif_images/Dinner_Planner.jpeg"
+        },
+        techs: ["Python", "GCP", "APIs"]
+    }
 ]
