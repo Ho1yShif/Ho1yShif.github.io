@@ -9,7 +9,7 @@ const ThankYou = () => (
           <FaHandsHelping className='mr-2 text-primary' />
           Acknowledgments
         </h2>
-        <p className='mb-6 text-lg'>I would like to extend my heartfelt thanks to the following individuals for their support and contributions:</p>
+        <p className='mb-6 text-lg'>I would like to thank the following people for their valuable support and mentorship in my career:</p>
         <div className='text-center text-lg'>
           <p><a href='https://www.linkedin.com/in/rachel-cappell-cpa-a154474/' target='_blank' rel='noopener noreferrer'>Rachel Cappell</a></p>
           <p><a href='https://www.zackovits.com/' target='_blank' rel='noopener noreferrer'>Zack Ovits</a></p>
