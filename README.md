@@ -10,5 +10,7 @@ A space to introduce myself and share my professional accomplishments
   - Set up hyperlinks for links inside work exepreience section
   - Add tags for tech writing and data on the work expereience section, similarto the projects
   - Remove separation lines between sections
+  - Change X logo to correct one
+  - Pick new resume icon
   - Add Thank you section: Nick, Constant, Brian, Zack, Mom
 - Once website looks good, remove as much of the old Shiv stuff as I can
