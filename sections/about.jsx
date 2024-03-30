@@ -51,18 +51,6 @@ const About = () => {
           <FaUserCheck /> About Me
         </h2>
         <div className='pb-[30px] px-[20px] md:px-[100px] lg:px-[200px] md:flex gap-[50px]'>
-          {/* Person Image */}
-          {/* <Image
-            alt='about image'
-            className={
-              "shadow-zinc-300 dark:shadow-zinc-700 shadow-sm transition-all duration-700 translate-x-[-900px] bg-blue-200 m-auto bg-cover bg-no-repeat max-h-[500px] rounded object-contain"
-            }
-            ref={profile2Ref}
-            src='/images/shif_images/ShifraFountain.jpg'
-            height={400}
-            width={400}
-          /> */}
-          {/* Image */}
           <div
             className={
               "translate-x-[-500px] transition-all opacity-0 duration-700 w-[400px] h-[500px] md:w-[400px] md:h-[500px] bg-contain m-auto md:m-0 mt-[40px] md:mt-0 bg-no-repeat"
