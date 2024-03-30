@@ -82,16 +82,6 @@ const Intro = () => {
                 Educator<span className='text-white'>|</span>
               </span>
             </p>
-            <div className='mt-5 md:mt-10 flex gap-3'>
-            {/* Resume Button */}
-            <Link
-              className='text-xl font-semibold rounded border-2 border-black hover:text-white hover:bg-black px-2 py-1'
-              href='https://drive.google.com/file/d/13f_wkFv5v536YB5onTxRraPWiKfjUhSG/view?usp=drive_link'
-              target='_blank'
-            >
-              Resume
-            </Link>
-          </div>
           </div>
 
           {/* Image */}
