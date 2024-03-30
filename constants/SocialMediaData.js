@@ -6,19 +6,19 @@ export const SocialMediaData = [
   {
     icon: <FaLinkedinIn />,
     name: "LinkedIn",
-    color: "#0072b1",
+    color: "black",
     link: "https://www.linkedin.com/in/shifra-isaacs/",
   },
   {
     icon: <BsGithub />,
     name: "GitHub",
-    color: "#171515",
+    color: "black",
     link: "https://github.com/Ho1yShif/",
   },
   {
     icon: <FaXTwitter />,
     name: "X",
-    color: "#0f0f0f",
+    color: "black",
     link: "https://twitter.com/holyshif?lang=en",
   }
 ];
