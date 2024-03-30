@@ -43,7 +43,7 @@ export const TechStackData = [
     icon: <SiPostgresql className="md:text-4xl text-2xl" color="#336791" />
   },
   {
-    name: "RedshiftSQL",
+    name: "Redshift SQL",
     icon: <SiAmazonredshift className="md:text-4xl text-2xl" color="#276DC3" />
   },
   {
