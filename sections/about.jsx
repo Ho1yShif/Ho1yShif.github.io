@@ -52,15 +52,23 @@ const About = () => {
         </h2>
         <div className='pb-[30px] px-[20px] md:px-[100px] lg:px-[200px] md:flex gap-[50px]'>
           {/* Person Image */}
-          <Image
+          {/* <Image
             alt='about image'
             className={
               "shadow-zinc-300 dark:shadow-zinc-700 shadow-sm transition-all duration-700 translate-x-[-900px] bg-blue-200 m-auto bg-cover bg-no-repeat max-h-[500px] rounded object-contain"
             }
-            height={350}
             ref={profile2Ref}
-            src='/images/shif_images/Shifra_Italy.jpeg'
-            width={350}
+            src='/images/shif_images/ShifraFountain.jpg'
+            height={400}
+            width={400}
+          /> */}
+          {/* Image */}
+          <div
+            className={
+              "translate-x-[-500px] transition-all opacity-0 duration-700 md:w-[400px] md:h-[500px] bg-contain m-auto md:m-0 mt-[40px] md:mt-0 bg-no-repeat"
+            }
+            ref={profile2Ref}
+            style={{ backgroundImage: "url(/images/shif_images/ShifraFountain.jpg)" }}
           />
           <div
             className='text-lg translate-x-[900px] opacity-0 transition-all duration-700 mt-4 md:mt-0 md:w-[50%] text-center md:text-left rounded'
