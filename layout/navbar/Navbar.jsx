@@ -11,8 +11,6 @@ import { ThemeContext } from "@/context/themeContext";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
-  const { setThemeFun, theme } = useContext(ThemeContext);
-
   return (
     <Fragment>
       {/* Desktop Header */}
@@ -42,9 +40,7 @@ const Navbar = () => {
       {/* Mobile Header */}
       <NavbarMobile
         setShowMenu={setShowMenu}
-        setThemeFun={setThemeFun}
         showMenu={showMenu}
-        theme={theme}
       />
 
       {/* SideMenu For Mobile Screen */}
