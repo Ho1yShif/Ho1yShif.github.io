@@ -47,7 +47,7 @@ export const ExperienceData = [
     to_date: "Current",
     description:
       `● Designing curriculum and writing lessons for Lua Learning, an award-winning Roblox game with 4M+ visits and 115K monthly active users
-       ● Lua Learning: https://www.roblox.com/games/1334669864/Lua-Learning
+       ● Lua Learning Link: https://www.roblox.com/games/1334669864/Lua-Learning
       `,
     side: "right",
   },
@@ -58,7 +58,8 @@ export const ExperienceData = [
     to_date: "November 2023",
     description:
       `● Collaborated with YouTube and Arizona Statue University to write 9 episodes of Crash Course Study Hall: Intro to Java Code and Programming For Beginners, hosted by Sabrina Cruz
-       ● Crash Course Playlist Link: https://www.youtube.com/watch?v=yBFu9HxiD88&list=PLID58IQe16nFgbHGRCj5QEXKUpVIilpDN&index=29
+       ● Crash Course Playlist Link:
+       https://www.youtube.com/watch?v=yBFu9HxiD88&list=PLID58IQe16nFgbHGRCj5QEXKUpVIilpDN&index=29
       `,
     side: "left",
   },
