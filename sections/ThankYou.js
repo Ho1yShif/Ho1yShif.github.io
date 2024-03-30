@@ -10,7 +10,7 @@ const ThankYou = () => (
           Acknowledgments
         </h2>
         <p className='mb-6 text-lg'>I would like to thank the following people for their valuable support and mentorship in my career:</p>
-        <div className='mx-auto flex flex-col items-center text-center text-lg'>
+        <div className='mx-auto flex flex-col font-semibold items-center text-center text-lg'>
           <p className='mb-4'><a href='https://www.linkedin.com/in/rachel-cappell-cpa-a154474/' target='_blank' rel='noopener noreferrer'>Rachel Cappell</a></p>
           <p className='mb-4'><a href='https://www.zackovits.com/' target='_blank' rel='noopener noreferrer'>Zack Ovits</a></p>
           <p className='mb-4'><a href='https://www.linkedin.com/in/nick-singh-tech/' target='_blank' rel='noopener noreferrer'>Nick Singh</a></p>
