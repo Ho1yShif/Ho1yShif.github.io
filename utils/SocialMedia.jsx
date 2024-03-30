@@ -11,7 +11,7 @@ const SocialMedia = () => {
 
   return (
     <Fragment>
-      <div className='absolute left-14 bottom-10 flex gap-4 z-10'>
+      <div className='absolute left-14 bottom-10 flex gap-7 z-10'>
         <a href="mailto:shifraisaacs@gmail.com" style={{ color: 'inherit', textDecoration: 'none' }}>
           <button
             className='p-2 rounded-full text-5xl bg-black text-white'
