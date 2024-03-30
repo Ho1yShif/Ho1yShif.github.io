@@ -76,6 +76,18 @@ export const ExperienceData = [
       "career_track": ["Data Analytics", "Marketing"]
   },
   {
+    organization: "Podium Education",
+    role: "Data Programming Team Lead",
+    from_date: "May 2023",
+    to_date: "August 2023",
+    description:
+      `● Facilitated classroom instruction to college students, teaching introductory SQL, Tableau, and Python for practical data science
+      ● Graded weekly coding assignments and final projects for a diverse cohort of 60+ students, demonstrating strong organizational skills
+      ● Provided personalized one-on-one guidance during office hours to address individual learning needs
+      `,
+      "career_track": ["Data Analytics", "Data Science", "Education"]
+  },
+  {
     organization: "Cross River Bank",
     role: "Data Technology Analyst Intern",
     from_date: "June 2021",
