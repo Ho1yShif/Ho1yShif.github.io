@@ -1,10 +1,10 @@
-import { FaPython, FaJava, FaLinux, FaAws, FaJira } from 'react-icons/fa';
+import { FaPython, FaJava, FaLinux, FaJira } from 'react-icons/fa';
 import { BsGit, BsGithub, BsTable } from "react-icons/bs";
 import { LuTestTubes } from "react-icons/lu";
 import { GrMysql } from "react-icons/gr";
 import { SiPostgresql, SiAmazonredshift, SiAmazons3, SiTableau, SiLooker, SiLua, SiMicrosoftexcel, SiGooglebigquery, SiPandas, SiNumpy, SiPytorch, SiR, SiConfluence } from "react-icons/si";
 
-export const TechStackData = [
+export const SkillsData = [
   {
     name: "Python",
     icon: <FaPython className="md:text-4xl text-2xl" color="#3776AB" />

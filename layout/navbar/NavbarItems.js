@@ -9,10 +9,10 @@ export const NavbarMenu = [
     },
     {
         name: "Projects",
-        link: "#project",
+        link: "#projects",
     },
     {
         name: "Skills",
-        link: "#techStack",
+        link: "#skills",
     }
 ];
