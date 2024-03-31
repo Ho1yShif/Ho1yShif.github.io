@@ -13,7 +13,7 @@ const NavbarMobile = () => {
       <Link href="/#home" className='text-gray-400 flex'>
         <span className='text-lg font-bold'>Shifra Isaacs</span>
       </Link>
-      <div className='h-full flex gap-4'>
+      <div className='h-full flex gap-4 flex-wrap'>
         {/* Navbar Links */}
         {NavbarMenu.map((navbar) => (
           <Link
