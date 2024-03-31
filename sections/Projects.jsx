@@ -36,7 +36,7 @@ const Project = () => {
 
   return (
     <Fragment>
-      <section id='project' ref={projectRef}>
+      <section id='projects' ref={projectRef}>
         <h2 className='text-3xl font-bold text-center pt-4 pb-8 flex justify-center items-center gap-3'>
           <CgWebsite /> Projects
         </h2>

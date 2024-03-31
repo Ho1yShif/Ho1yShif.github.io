@@ -17,7 +17,7 @@ const Skills = () => {
     <Fragment>
       <section
         className='shadow-zinc-300 dark:shadow-zinc-700 shadow-sm overflow-hidden'
-        id='Skills'
+        id='skills'
         ref={skillStackRef}
       >
         <h2 className='text-3xl font-bold text-center p-4 flex justify-center items-center gap-1'>
