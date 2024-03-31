@@ -1,39 +1,31 @@
-import React from "react";
-import { DiTechcrunch } from "react-icons/di";
-import { BsFillLightningChargeFill } from "react-icons/bs";
-import { TbBulbFilled } from "react-icons/tb";
-import { GiHamburgerMenu } from "react-icons/gi";
+import React, { useState } from "react";
+import Link from "next/link";
+import { NavbarMenu } from "./NavbarItems";
 
-const NavbarMobile = ({ setShowMenu, setThemeFun, theme, showMenu, top }) => {
+const NavbarMobile = () => {
+  const [showMenu, setShowMenu] = useState(false);
+
   return (
-    //  Mobile Header
     <div
-      className='w-full px-5 py-3 bg-[#ffffffcc] dark:bg-[#000000cc] backdrop-filter backdrop-blur-lg flex justify-between md:hidden shadow-md shadow-gray-300 dark:shadow-gray-800 fixed z-10'
-      style={{ top }}
+      className='w-full h-[70px] px-8 bg-black dark:bg-black backdrop-filter backdrop-blur-lg md:hidden flex justify-between items-center gap-4 dark:shadow-gray-800 fixed z-10 transition-all duration-500'
     >
-      <div className='flex items-center gap-4'>
-        {/* Open Sidebar Button */}
-        <button
-          className='text-black dark:text-white text-3xl font-semibold'
-          onClick={() => setShowMenu(!showMenu)}
-        >
-          <GiHamburgerMenu />
-        </button>
-
-        {/* Name Logo */}
-        <p className='text-gray-400 flex'>
-          <span className='text-lg font-bold'>SHIV</span> <DiTechcrunch />
-        </p>
-      </div>
-
-      {/* Toggle Theme Button */}
-      <div className='flex items-center gap-4'>
-        <button
-          className='text-[#c72c6c] dark:text-[#07d0e5] text-2xl font-semibold hover:scale-110'
-          onClick={setThemeFun}
-        >
-          {theme === "dark" ? <TbBulbFilled /> : <BsFillLightningChargeFill />}
-        </button>
+      {/* Name Logo */}
+      <Link href="/#home" className='text-gray-400 flex'>
+        <span className='text-lg font-bold'>Shifra Isaacs</span>
+      </Link>
+      <div className='h-full flex gap-4'>
+        {/* Navbar Links */}
+        {NavbarMenu.map((navbar) => (
+          <Link
+            className={"text-white dark:text-white font-semibold"}
+            href={navbar.link}
+            key={navbar.name}
+          >
+            <div className='h-full pb-1 hover:pb-0 px-2 flex items-center hover:border-b-4  border-white dark:border-white transition-all'>
+              {navbar.name}
+            </div>
+          </Link>
+        ))}
       </div>
     </div>
   );
