@@ -7,7 +7,7 @@ const NavbarMobile = () => {
 
   return (
     <div
-      className='w-full h-[70px] px-8 bg-black dark:bg-black backdrop-filter backdrop-blur-lg md:hidden flex justify-between items-center gap-4 dark:shadow-gray-800 fixed z-10 transition-all duration-500'
+      className='w-full h-[80px] px-8 bg-black dark:bg-black backdrop-filter backdrop-blur-lg md:hidden flex justify-between items-center gap-4 dark:shadow-gray-800 fixed z-10 transition-all duration-500'
     >
       {/* Name Logo */}
       <Link href="/#home" className='text-gray-400 flex'>
@@ -21,7 +21,7 @@ const NavbarMobile = () => {
             href={navbar.link}
             key={navbar.name}
           >
-            <div className='h-full pb-1 hover:pb-0 px-2 flex items-center hover:border-b-4  border-white dark:border-white transition-all'>
+            <div className='h-full pb-1 hover:pb-0 px-1 flex items-center hover:border-b-4  border-white dark:border-white transition-all'>
               {navbar.name}
             </div>
           </Link>
