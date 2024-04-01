@@ -1,6 +1,6 @@
 export const ExperienceData = [
   {
-    organization: "Annalect",
+    organization: "Annalect | Client: Nissan",
     role: "Data Scientist",
     from_date: "January 2023",
     to_date: "Current",
