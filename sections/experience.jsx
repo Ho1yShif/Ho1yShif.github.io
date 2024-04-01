@@ -65,9 +65,14 @@ const Experience = () => {
           </div>
 
           <div className='flex justify-between text-black-600 dark:text-black gap-2 mt-2'>
+          <div className='text-left'>
             <p className='font-semibold'>{experience.role}</p>
+          </div>
+
+          <div className='text-right'>
             <p>{experience.from_date} – {experience.to_date}</p>
           </div>
+        </div>
 
           <div
             className='mt-2 text-justify transition-all duration-500 overflow-hidden text-black dark:text-black'
