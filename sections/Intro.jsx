@@ -57,8 +57,8 @@ const Intro = () => {
             <IntroParagraph />
           </div>
 
-          {/* Image */}
-          <div
+            {/* Image */}
+            <div
             className={
               "translate-x-[100px] transition-all opacity-0 duration-700 w-[180px] h-[500px] md:w-[400px] md:h-[400px] bg-contain m-auto md:m-0 mt-[40px] md:mt-0 bg-no-repeat order-2 md:order-2"
             }
@@ -66,8 +66,8 @@ const Intro = () => {
             style={{ backgroundImage: "url(/images/shif_images/Circle_Headshot.svg)" }}
           />
 
-          <div className='order-3' style={{ marginTop: '10em' }}>
-            <SocialMedia />
+          <div className='order-3' style={{ marginTop: '3em' }}>
+            <SocialMedia className="max-w-xs flex flex-wrap justify-between md:max-w-full" />
           </div>
         </div>
       </section>
