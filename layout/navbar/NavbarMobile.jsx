@@ -11,13 +11,13 @@ const NavbarMobile = () => {
     >
       {/* Name Logo */}
       <Link href="/#home" className='text-gray-400 flex'>
-        <span className='text-lg font-bold'>Shifra Isaacs</span>
+        <span className='text-2vw font-bold'>Shifra Isaacs</span>
       </Link>
-      <div className='h-full flex gap-4 flex-wrap'>
+      <div className='h-full flex gap-4'>
         {/* Navbar Links */}
         {NavbarMenu.map((navbar) => (
           <Link
-            className={"text-white dark:text-white font-semibold"}
+            className={"text-white dark:text-white font-semibold text-2vw"}
             href={navbar.link}
             key={navbar.name}
           >
