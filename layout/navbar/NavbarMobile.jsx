@@ -32,13 +32,13 @@ const NavbarMobile = () => {
             )}
           </button>
           {/* Name Logo */}
-          <Link href="/" className='text-gray-400 flex-grow'>
-            <span className='text-1vm font-bold'>Shifra Isaacs</span>
+          <Link href="/" className='text-gray-400 flex-grow text-xl font-bold'>
+            <span className='font-bold'>Shifra Isaacs</span>
           </Link>
         </div>
       </div>
       {showMenu && (
-        <div className='fixed inset-0 bg-black bg-opacity-75 z-20 flex flex-col items-center justify-center'>
+        <div className='fixed inset-0 bg-black bg-opacity-75 z-20 flex flex-col items-center justify-center transition-all duration-500'>
           {/* Navbar Links */}
           {NavbarMenu.map((item) => (
             <Link key={item.name} href={item.link} className='text-white text-2xl my-4' onClick={closeMenu}>
