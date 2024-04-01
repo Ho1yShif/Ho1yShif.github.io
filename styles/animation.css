@@ -16,8 +16,8 @@
   }
 }
 
-@media (min-width: 640px) {
-  .blogLink:hover {
-    transition: all 0.5s;
+@media (max-width: 640px) {
+  .sm:text-sm {
+    font-size: 0.875rem;
   }
 }

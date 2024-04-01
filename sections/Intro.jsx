@@ -67,7 +67,7 @@ const Intro = () => {
           />
 
           <div className='order-3' style={{ marginTop: '3em' }}>
-            <SocialMedia className="max-w-xs flex flex-wrap justify-between md:max-w-full" />
+          <SocialMedia className="max-w-xs flex flex-wrap justify-between md:max-w-full sm:text-sm" />
           </div>
         </div>
       </section>
