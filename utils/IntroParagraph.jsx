@@ -6,7 +6,8 @@ const IntroParagraph = () => (
       Hi there, I'm Shif 🤝
     </p>
     {/* Profile Name */}
-    <p className='text-2xl md:text-4xl py-2 font-semibold font-sans'>
+    <p>
+    <p className='text-2xl md:text-4xl py-2 font-semibold font-sans  text-left'>
       I&apos;m a
       <span className='text-[#0c11ab] dark:text-[#0c11ab]'>
         {" "}
@@ -18,7 +19,8 @@ const IntroParagraph = () => (
         Data<span className='text-white'>|</span>
       </span>
       Analyst,
-      <br></br>
+      </p>
+      <p className='text-2xl md:text-4xl py-2 font-semibold font-sans text-left'>
       Technical
       <span className='text-[#0c11ab] dark:text-[#0c11ab]'>
         {" "}
@@ -29,6 +31,7 @@ const IntroParagraph = () => (
         {" "}
         Educator<span className='text-white'>|</span>
       </span>
+      </p>
     </p>
   </div>
 );
