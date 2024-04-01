@@ -58,7 +58,7 @@ const Intro = () => {
           {/* Image */}
           <div
             className={
-              "translate-x-[100px] transition-all opacity-0 duration-700 w-[180px] h-[500px] md:w-[400px] md:h-[400px] bg-contain m-auto md:m-0 mt-[0px] md:mt-0 bg-no-repeat order-2 md:order-2"
+              "translate-x-[100px] transition-all opacity-0 duration-700 w-full md:w-[400px] h-[300px] md:h-[400px] bg-contain m-auto md:m-0 mt-[0px] md:mt-0 bg-no-repeat order-2 md:order-2 flex-grow"
             }
             ref={profileRef}
             style={{ backgroundImage: "url(/images/shif_images/Circle_Headshot.svg)" }}
