@@ -47,7 +47,7 @@ const Intro = () => {
         <title>Shifra's Portfolio</title>
       </Head>
       <section id='home' ref={homeRef} className="pt-20">
-        <div className='flex flex-col md:flex-row justify-center items-center gap-10 ml-20'>
+        <div className='flex flex-col md:flex-row justify-center items-center gap-10 md:ml-60'>
           <div
             className='translate-x-[-500px] transition-all duration-700 opacity-0 order-1 md:order-1'
             ref={introRef}
