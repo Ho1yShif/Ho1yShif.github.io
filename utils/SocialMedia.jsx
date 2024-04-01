@@ -14,7 +14,7 @@ const SocialMedia = () => {
       <div className='flex py-[30px] px-[20px] flex-wrap justify-center items-center gap-5'>
         <a href="mailto:shifraisaacs@gmail.com" style={{ color: 'inherit', textDecoration: 'none' }}>
           <div
-            className='p-2 rounded-full text-5xl bg-black text-white flex flex-col gap-3 items-center'
+            className='p-2 rounded-full text-6xl bg-black text-white flex flex-col gap-3 items-center'
             onClick={() => setShowModal(true)}
             title="Email"
           >
@@ -23,7 +23,7 @@ const SocialMedia = () => {
         </a>
         <a href="https://drive.google.com/file/d/1oMdl7UvjOlYI3hGMk8GdKUyeiAy_zg63/view?usp=drive_link" style={{ color: 'inherit', textDecoration: 'none' }}>
           <div
-            className='p-2 rounded-full text-5xl bg-black text-white flex flex-col gap-3 items-center'
+            className='p-2 rounded-full text-6xl bg-black text-white flex flex-col gap-3 items-center'
             onClick={() => setShowModal(true)}
             title="Resume"
           >
@@ -33,7 +33,7 @@ const SocialMedia = () => {
         {SocialMediaData.map((social, key) => (
           <Link className='w-fit' href={social.link} key={key}>
             <div
-              className={"p-2 rounded-full text-5xl text-white flex flex-col gap-3 items-center"}
+              className={"p-2 rounded-full text-6xl text-white flex flex-col gap-3 items-center"}
               style={{ background: social.color }}
               title={social.name}
             >
