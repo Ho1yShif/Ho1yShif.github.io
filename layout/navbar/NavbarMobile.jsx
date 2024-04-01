@@ -13,7 +13,7 @@ const NavbarMobile = () => {
     <div
       className='w-full h-[60px] bg-black dark:bg-black backdrop-filter backdrop-blur-lg md:hidden fixed z-10 transition-all duration-500'
     >
-      <div className='px-4 max-w-[600px] m-auto flex justify-between items-center gap-4 dark:shadow-gray-800'>
+      <div className='px-2 max-w-[600px] m-auto flex justify-between items-center gap-4 dark:shadow-gray-800'>
         {/* Name Logo */}
         <Link href="/#home" className='text-gray-400 flex'>
           <span className='text-1vm font-bold'>Shifra Isaacs</span>
