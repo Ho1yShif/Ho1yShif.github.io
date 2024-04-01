@@ -11,29 +11,29 @@ const SocialMedia = () => {
 
   return (
     <Fragment>
-      <div className='absolute left-14 bottom-10 flex gap-7 z-10'>
+      <div className='flex py-[30px] px-[20px] flex-wrap justify-center items-center gap-5'>
         <a href="mailto:shifraisaacs@gmail.com" style={{ color: 'inherit', textDecoration: 'none' }}>
-          <button
-            className='p-2 rounded-full text-5xl bg-black text-white'
+          <div
+            className='p-2 rounded-full text-5xl bg-black text-white flex flex-col gap-3 items-center'
             onClick={() => setShowModal(true)}
             title="Email"
           >
             <MdEmail />
-          </button>
+          </div>
         </a>
         <a href="https://drive.google.com/file/d/1oMdl7UvjOlYI3hGMk8GdKUyeiAy_zg63/view?usp=drive_link" style={{ color: 'inherit', textDecoration: 'none' }}>
-          <button
-            className='p-2 rounded-full text-5xl bg-black text-white'
+          <div
+            className='p-2 rounded-full text-5xl bg-black text-white flex flex-col gap-3 items-center'
             onClick={() => setShowModal(true)}
             title="Resume"
           >
             <IoDocumentText />
-          </button>
+          </div>
         </a>
         {SocialMediaData.map((social, key) => (
           <Link className='w-fit' href={social.link} key={key}>
             <div
-              className={"p-2 rounded-full text-5xl text-white"}
+              className={"p-2 rounded-full text-5xl text-white flex flex-col gap-3 items-center"}
               style={{ background: social.color }}
               title={social.name}
             >
