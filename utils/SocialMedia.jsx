@@ -11,7 +11,7 @@ const SocialMedia = () => {
 
   return (
     <Fragment>
-      <div className='flex flex-wrap justify-center items-center gap-5 py-[30px] px-[20px] sm:flex-col md:flex-row'>
+      <div className='flex flex-wrap justify-center items-center gap-8 py-[30px] px-[20px] sm:flex-col md:flex-row'>
         <a href="mailto:shifraisaacs@gmail.com" style={{ color: 'inherit', textDecoration: 'none' }} className="max-w-[50%] sm:max-w-full">
           <div
             className='p-2 rounded-full text-6xl bg-black text-white flex flex-col gap-3 items-center'
