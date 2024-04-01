@@ -7,7 +7,7 @@ const NavbarMobile = () => {
 
   return (
     <div
-      className='w-full h-[80px] bg-black dark:bg-black backdrop-filter backdrop-blur-lg md:hidden fixed z-10 transition-all duration-500'
+      className='w-full h-[60px] bg-black dark:bg-black backdrop-filter backdrop-blur-lg md:hidden fixed z-10 transition-all duration-500'
     >
       <div className='px-8 max-w-[800px] m-auto flex justify-between items-center gap-4 dark:shadow-gray-800'>
         {/* Name Logo */}
