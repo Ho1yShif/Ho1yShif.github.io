@@ -7,5 +7,4 @@ A space to introduce myself and share my professional accomplishments
 - Slightly pad footer
 - Steal torpedo softwares hamburger menu
 - Just say data scientist instead of data scientist and analyst
-- Fix DataLemur link and check all links
 - Make LI and twitter icons smaller within their circles

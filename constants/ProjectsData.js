@@ -10,7 +10,7 @@ export const ProjectsData = [
     },
     {
         projectName: "DataLemur",
-        liveUrl: "DataLemur.com",
+        liveUrl: "https://DataLemur.com",
         githubUrl: "",
         projectImage: {
             imageUrl: "/images/shif_images/DataLemur.png"
@@ -45,7 +45,7 @@ export const ProjectsData = [
     {
         projectName: "NJ Flood Prediction and Mitigation",
         liveUrl: "https://docs.google.com/presentation/d/1_0ddFciVmtjiIOLNdVsPbGIlbC8DeLVuO9G7LaevThA/edit?usp=sharing",
-        githubUrl: "NJ Flood Prediction and Mitigation",
+        githubUrl: "https://github.com/Ho1yShif/cgi_flood_prediction_mitigation",
         projectImage: {
             imageUrl: "/images/shif_images/flood_nj.jpeg"
         },
