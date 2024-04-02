@@ -10,7 +10,11 @@ module.exports = {
   ],
   darkMode: false,
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        '180': '21rem',
+      }
+    }
   },
   plugins: [],
 }

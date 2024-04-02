@@ -47,7 +47,7 @@ const Intro = () => {
         <title>Shifra's Portfolio</title>
       </Head>
       <section id='home' ref={homeRef} className="pt-20">
-        <div className='flex flex-col md:flex-row justify-center items-center gap-10 md:ml-60'>
+        <div className='flex flex-col md:flex-row justify-center items-center gap-10 md:ml-180'>
           <div
             className='translate-x-[-500px] transition-all duration-700 opacity-0 order-1 md:order-1'
             ref={introRef}
@@ -58,12 +58,12 @@ const Intro = () => {
           {/* Image */}
           <div
             className={
-              "translate-x-[100px] transition-all opacity-0 duration-700 w-full md:w-[400px] h-[300px] md:h-[400px] bg-contain m-auto md:m-0 mt-[0px] md:mt-0 bg-no-repeat order-2 md:order-2 flex-grow"
+              "translate-x-[100px] transition-all opacity-0 duration-700 w-full md:w-[400px] h-[300px] md:h-[400px] bg-contain mx-auto md:m-0 mt-[0px] md:mt-0 bg-no-repeat order-2 md:order-2 flex-grow"
             }
             ref={profileRef}
             style={{ backgroundImage: "url(/images/shif_images/Circle_Headshot.svg)" }}
           />
-        </div>
+          </div>
 
         <div className='order-3 md:order-last mt-5 md:mt-0'>
           <SocialMedia className="max-w-xs flex flex-wrap justify-between md:max-w-full sm:text-sm" />
