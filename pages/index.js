@@ -20,7 +20,7 @@ const Home = () => {
         <title>Shifra's Portfolio</title>
         {/* <!-- Primary Meta Tags --> */}
         <meta content="Shifra's Portfolio" name="title" />
-        <meta content="Shifra Isaacs professional portfolio" name="description" />
+        <meta content="Shifra Isaacs – Explore the portfolio of Shifra Isaacs, an experienced data scientist, technical writer, and educator on a mission to make a positive impact" name="description" />
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta content="website" property="og:type" />
