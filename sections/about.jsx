@@ -66,9 +66,13 @@ const About = () => {
             <p className='text-3xl text-center md:text-left font-semibold text-[#0c11ab] dark:text-[#0c11ab]'>
               Shifra Isaacs
             </p>
+            {/* Prounons */}
+            <p className='text-center md:text-left font-semibold text-black-600'>
+            (she / they)
+            </p>
             {/* Profile Name */}
-            <p className='text-center md:text-left font-semibold text-black-600 mt-1'>
-              Data Scientist | Data Analyst | Technical Writer | Educator
+            <p className='text-l text-center md:text-left font-semibold text-black-600 mt-3'>
+              Data Scientist | Technical Writer | Educator
             </p>
 
             <div className='mt-5 justify-evenly text-justify'>
