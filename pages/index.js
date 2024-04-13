@@ -10,7 +10,6 @@ const Intro = dynamic(() => import("@/sections/Intro"))
 const Skills = dynamic(() => import("@/sections/Skills"))
 const Projects = dynamic(() => import("@/sections/Projects"))
 const ThankYou = dynamic(() => import("@/sections/ThankYou"))
-const ChatSystem = dynamic(() => import("@/utils/ChatSystem"))
 
 const Home = () => {
 
@@ -55,11 +54,6 @@ const Home = () => {
           {/* Thank You Section */}
           <ThankYou />
           {/* Footer */}
-          <Footer />
-          <div className="z-40">
-            {/* tawk.to Chat System */}
-            <ChatSystem />
-          </div>
         </div>
       </div>
     </Fragment>

@@ -1,5 +1,5 @@
 import { BsGithub } from "react-icons/bs";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaDonate } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 export const SocialMediaData = [
@@ -20,5 +20,11 @@ export const SocialMediaData = [
     name: "X",
     color: "black",
     link: "https://twitter.com/holyshif?lang=en",
-  }
+  },
+  {
+    icon: <div className="p-2">< FaDonate /></div>,
+    name: "Donate",
+    color: "black",
+    link: "https://www.paypal.com/donate/?business=L8U6544C9D2ML&no_recurring=0&item_name=Creating+informative+content+to+help+students+and+early-career+tech+professionals+achieve+their+fullest+potential&currency_code=USD",
+  },
 ];
