@@ -15,7 +15,7 @@ export const ProjectsData = [
         projectImage: {
             imageUrl: "/images/shif_images/DataLemur.png"
         },
-        techs: ["PostgreSQL", "Technical Writing", "Data Analysis", "Data Science", "Mathematics", "Probability"]
+        techs: ["PostgreSQL", "Technical Writing", "Data Analytics", "Data Science", "Mathematics", "Probability"]
     },
     {
         projectName: "Classification of Fall Out Boy Eras",
@@ -24,7 +24,7 @@ export const ProjectsData = [
         projectImage: {
             imageUrl: "/images/shif_images/FOB.jpg"
         },
-        techs: ["Python", "Pandas", "NumPy", "PyTorch", "Scikit-learn", "APIs", "Logistic Regression"]
+        techs: ["Python", "Pandas", "NumPy", "Scikit-learn", "PyTorch", "APIs", "Logistic Regression"]
     },
     {
         projectName: "Lua Learning",
@@ -40,7 +40,7 @@ export const ProjectsData = [
         projectImage: {
             imageUrl: "/images/shif_images/Shakespeare_GPT.webp"
         },
-        techs: ["Python", "PyTorch", "Machine Learning", "LLMs"]
+        techs: ["Python", "AI", "GPT", "LLMs", "PyTorch", "Machine Learning"]
     },
     {
         projectName: "NJ Flood Prediction and Mitigation",
