@@ -19,7 +19,7 @@ export const ProjectsData = [
     },
     {
         projectName: "Classification of Fall Out Boy Eras",
-        liveUrl: "https://docs.google.com/document/d/1r6A2JHU6jtBoxAq3eWm2eP08l_u6KRtKTEpcoQXS84I/edit?usp=sharing",
+        liveUrl: "https://arestyrurj.libraries.rutgers.edu/index.php/arestyrurj/article/view/232",
         githubUrl: "https://github.com/Ho1yShif/FOB_LR_Public",
         projectImage: {
             imageUrl: "/images/shif_images/FOB.jpg"
