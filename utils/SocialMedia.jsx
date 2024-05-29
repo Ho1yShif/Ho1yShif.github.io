@@ -21,7 +21,7 @@ const SocialMedia = () => {
             <MdEmail />
           </div>
         </a>
-        <a href="https://drive.google.com/file/d/1oMdl7UvjOlYI3hGMk8GdKUyeiAy_zg63/view?usp=drive_link" style={{ color: 'inherit', textDecoration: 'none' }} className="max-w-[50%] sm:max-w-full">
+        <a href="https://drive.google.com/file/d/17wURwzY1Xh7yOnWYvIIVN7vmv8ikszvA/view?usp=drive_link" style={{ color: 'inherit', textDecoration: 'none' }} className="max-w-[50%] sm:max-w-full">
           <div
             className='p-4 rounded-full text-5xl bg-black text-white flex flex-col gap-3 items-center'
             onClick={() => setShowModal(true)}
