@@ -4,12 +4,12 @@ import dynamic from "next/dynamic";
 
 import About from "@/sections/about";
 import Experience from "@/sections/experience";
-const Navbar = dynamic(() => import("@/layout/navbar/Navbar"))
-const Footer = dynamic(() => import("@/layout/footer/Footer"))
+const Navbar = dynamic(() => import("@/layout/navbar/Navbar"), { ssr: false });
+const Footer = dynamic(() => import("@/layout/footer/Footer"), { ssr: false });
 const Intro = dynamic(() => import("@/sections/Intro"))
-const Skills = dynamic(() => import("@/sections/Skills"))
-const Projects = dynamic(() => import("@/sections/Projects"))
-const ThankYou = dynamic(() => import("@/sections/ThankYou"))
+const Skills = dynamic(() => import("@/sections/Skills"), { ssr: false });
+const Projects = dynamic(() => import("@/sections/Projects"), { ssr: false });
+const ThankYou = dynamic(() => import("@/sections/ThankYou"), { ssr: false });
 
 const Home = () => {
 
