@@ -1,9 +1,21 @@
 export const ExperienceData = [
-  {
+	{
+		organization: "Sigma Computing",
+		role: "Technical Support Engineer",
+		from_date: "May 2024",
+		to_date: "Current",
+		description:
+		  `● Maintaining < 1 minute response time and 98% customer satisfaction while troubleshooting client issues over live chat
+		  ● Providing analytics, data modeling and visualization, and SQL query optimization consultations to specialized clients
+		  ● Partnering with engineering and product teams to gather customer feedback, collect feature enhancement requests, and report complex bugs
+		  `,
+		  "career_track": ["Technical Support", "Data Analytics", "Data Engineering", "Software Engineering", "Business Intelligence", "Consulting"]
+	},
+	{
     organization: "Annalect | Client: Nissan",
     role: "Data Scientist",
     from_date: "January 2023",
-    to_date: "Current",
+    to_date: "May 2024",
     description:
       `● Achieving $750K savings by diagnosing CPM pricing issues and developing comprehensive QA solution
       ● Facilitating million-dollar marketing pitches through efficient data ETL, securing high-value contracts
@@ -32,7 +44,7 @@ export const ExperienceData = [
     organization: "Torpedo Software LLC",
     role: "Technical Curriculum Writer",
     from_date: "January 2023",
-    to_date: "Current",
+    to_date: "Present",
     description:
       `● Designing curriculum and writing lessons for Lua Learning, an award-winning Roblox game with 4M+ visits and 115K monthly active users
        ● Lua Learning Link: https://www.roblox.com/games/1334669864/Lua-Learning

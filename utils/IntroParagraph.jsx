@@ -1,31 +1,28 @@
 import React from 'react';
 
 const IntroParagraph = () => (
-  <div>
-    <p className='py-2 text-2xl md:text-4xl font-semibold font-sans text-centers'>
-      Hi there, I'm Shif 🤝
+  <div className='text-2xl md:text-4xl font-semibold font-sans text-centers mx-auto' style={{ maxWidth: '800px' }}>
+    <p className='py-2 text-center'>
+        Hi there, I'm Shif 🤝
     </p>
-    {/* Profile Name */}
-    <p className='text-2xl md:text-4xl py-2 font-semibold font-sans text-center'>
-      I&apos;m a
+    <p className='py-2 text-center'>
+      I'm a {' '}
       <span className='text-[#0c11ab] dark:text-[#0c11ab]'>
-        {" "}
-        Data<span className='text-white'>|</span>
+        Data 
       </span>
-      Scientist,
+    {' '} Scientist,
     </p>
-    <p className='text-2xl md:text-4xl py-2 font-semibold font-sans text-center'>
-      Technical
+    <p className='py-2 text-center'>
+      Technical {' '}
       <span className='text-[#0c11ab] dark:text-[#0c11ab]'>
-        {" "}
-        Writer,<span className='text-white'>|</span>
+        Writer, {' '}
       </span>
-    </p>
-    <p className='text-2xl md:text-4xl py-2 font-semibold font-sans text-center'>
       and
+    </p>
+    <p className='py-2 text-center'>
+      Support {' '}
       <span className='text-[#0c11ab] dark:text-[#0c11ab]'>
-        {" "}
-        Educator<span className='text-white'>|</span>
+         Engineer
       </span>
     </p>
   </div>

@@ -72,17 +72,17 @@ const About = () => {
             </p>
             {/* Profile Name */}
             <p className='text-l text-center md:text-left font-semibold text-black-600 mt-3'>
-              Data Scientist | Technical Writer | Educator
+              Data Scientist | Technical Writer | Support Engineer
             </p>
 
             <div className='mt-5 justify-evenly text-justify'>
               <p className='text-black-600 dark:text-black-300'>
-              I'm a data professional looking to make a positive impact via data science, data analytics, and education.
-              My work experience includes client-facing data science at Annalect and JPMorgan Chase, technical writing at Crash Course and DataLemur, and analytics reporting at Prose.
+              I'm looking to utilize my programming, writing, and business skills to make a positive impact via data, analytics, and education.
+			  I've built my career through the following experiences: technical support at Sigma Computing, client-facing data science at Annalect and JPMorgan Chase, technical writing at Crash Course and DataLemur, and analytics reporting at Prose.
               </p>
               <br></br>
               <p>
-              When I'm not programming and writing, you'll find me at a show, playing music, cooking, spending time with friends, or planning my next trip. I have a deep appreciation for wordplay, and I don't take myself too seriously. Thanks for taking the time to learn more about me :)
+              When I'm not programming, you'll find me writing, cooking, listening to music, spending time with friends, or planning my next trip. Thanks for taking the time to learn more about me :)
               </p>
             </div>
 
