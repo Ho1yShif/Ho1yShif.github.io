@@ -5,7 +5,7 @@ export const ExperienceData = [
 		from_date: "May 2024",
 		to_date: "Current",
 		description:
-		  `● Maintaining < 1 minute response time and 98% customer satisfaction while troubleshooting client issues over live chat
+		  `● Maintaining < 1 minute response time and 96% customer satisfaction while troubleshooting client issues over live chat
 		  ● Providing analytics, data modeling and visualization, and SQL query optimization consultations to specialized clients
 		  ● Partnering with engineering and product teams to gather customer feedback, collect feature enhancement requests, and report complex bugs
 		  `,
@@ -17,14 +17,14 @@ export const ExperienceData = [
     from_date: "January 2023",
     to_date: "May 2024",
     description:
-      `● Achieving $750K savings by diagnosing CPM pricing issues and developing comprehensive QA solution
-      ● Facilitating million-dollar marketing pitches through efficient data ETL, securing high-value contracts
-      ● Leveraging logistic regression machine learning modeling to build custom Nissan marketing audiences
-      ● Automating first-party Nissan sales data load using Python, achieving a 92% reduction in lead time
-      ● Owning and leveraging B2B data with 250M rows in Redshift, delivering targeted marketing audiences
-      ● Leading Confluence documentation of new processes and maintenance of existing datasets and scripts
-      ● Designing Tableau dashboards to track MoM Nissan model market demographics and uncover insights
-      ● Managing client expectations, translating business needs into data solutions that drive team decisions
+      `● Achieved $750K savings by developing methodology to diagnose and QA discrepancies in CPM pricing
+      ● Facilitated million-dollar marketing pitches through efficient data ETL, securing high-value contracts
+      ● Leveraged logistic regression machine learning modeling to build custom Nissan marketing audiences
+      ● Automated first-party Nissan sales data load using Python, achieving a 92% reduction in lead time
+      ● Owned and leveraging B2B data with 250M rows in Redshift, delivering targeted marketing audiences
+      ● Led Confluence documentation of new processes and maintenance of existing datasets and scripts
+      ● Desiged Tableau dashboards to track MoM Nissan model market demographics and uncover insights
+      ● Managed client expectations, translating business needs into data solutions that drive team decisions
       `,
       "career_track": ["Data Science", "Machine Learning", "Data Analytics", "Data Engineering", "Marketing", "Consulting", "Technical Writing"]
   },
@@ -42,11 +42,11 @@ export const ExperienceData = [
   },
   {
     organization: "Torpedo Software LLC",
-    role: "Technical Curriculum Writer",
+    role: "Educational Curriculum Designer",
     from_date: "January 2023",
     to_date: "Present",
     description:
-      `● Designing curriculum and writing lessons for Lua Learning, an award-winning Roblox game with 4M+ visits and 115K monthly active users
+      `● Designing curriculum and writing lessons for Lua Learning, an award-winning Roblox game with 4.4M+ visits and 115K monthly active users
        ● Lua Learning Link: https://www.roblox.com/games/1334669864/Lua-Learning
       `,
       "career_track": ["Technical Writing", "Software Engineering", "Game Development", "Education"]
