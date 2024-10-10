@@ -1,13 +1,14 @@
 export const ExperienceData = [
 	{
 		organization: "Sigma Computing",
-		role: "Technical Support Engineer",
+		role: "Data Analyst & Technical Support Engineer",
 		from_date: "May 2024",
 		to_date: "Current",
 		description:
-		  `● Maintaining < 1 minute response time and 96% customer satisfaction while troubleshooting client issues over live chat
-		  ● Providing analytics, data modeling and visualization, and SQL query optimization consultations to specialized clients
-		  ● Partnering with engineering and product teams to gather customer feedback, collect feature enhancement requests, and report complex bugs
+		  `● Developing Snowflake SQL dashboard to identify improvement areas in customer satisfaction (CSAT)
+      ● Leading CSAT analysis to improve satisfaction scores while accommodating a 50% rise in chat volume
+      ● Writing external documentation for embedding applications using TypeScript, APIs, and authentication
+      ● Ensuring 96% CSAT and <1 minute response time while consulting on data models and infrastructure
 		  `,
 		  "career_track": ["Technical Support", "Data Analytics", "Data Engineering", "Software Engineering", "Business Intelligence", "Consulting"]
 	},
@@ -29,12 +30,12 @@ export const ExperienceData = [
       "career_track": ["Data Science", "Machine Learning", "Data Analytics", "Data Engineering", "Marketing", "Consulting", "Technical Writing"]
   },
   {
-    organization: "Crash Course (Complexly)",
+    organization: "Crash Course: Code and Programming for Beginners",
     role: "Technical Script Writer",
     from_date: "November 2022",
     to_date: "November 2023",
     description:
-      `● Collaborated with YouTube and Arizona Statue University to write 9 episodes of Crash Course Study Hall: Intro to Java Code and Programming For Beginners, hosted by Sabrina Cruz
+      `● Authored 9 episodes of the hit YouTube series, amassing 135K+ views and 10K+ hours of watch time
        ● Crash Course Playlist Link:
        https://www.youtube.com/watch?v=yBFu9HxiD88&list=PLID58IQe16nFgbHGRCj5QEXKUpVIilpDN&index=29
       `,
@@ -46,7 +47,7 @@ export const ExperienceData = [
     from_date: "January 2023",
     to_date: "Present",
     description:
-      `● Designing curriculum and writing lessons for Lua Learning, an award-winning Roblox game with 4.4M+ visits and 115K monthly active users
+      `● Designing curriculum and writing lessons for Lua Learning, an award-winning Roblox game with 7.7M+ visits and 115K monthly active users
        ● Lua Learning Link: https://www.roblox.com/games/1334669864/Lua-Learning
       `,
       "career_track": ["Technical Writing", "Software Engineering", "Game Development", "Education"]
