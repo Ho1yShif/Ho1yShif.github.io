@@ -10,6 +10,9 @@ const About = () => {
   const aboutRef = useRef();
   const profile2Ref = useRef();
   const aboutInfoRef = useRef();
+  const currentYear = new Date().getFullYear();
+  const yearsOfExperience = currentYear - 2021;
+  
 
   // Scroll Animation
   useEffect(() => {
@@ -113,7 +116,7 @@ const About = () => {
                   </p>
                 </div>
                 <p className='text-center md:text-left text-black dark:text-black'>
-                  3+ Years{" "}
+                {yearsOfExperience}+ Years{" "}
                 </p>
               </div>
             </div>
