@@ -1,8 +1,8 @@
-import { FaPython, FaJava, FaLinux, FaJira } from 'react-icons/fa';
+import { FaPython, FaJava, FaLinux, FaJira, FaSnowflake } from 'react-icons/fa';
 import { BsGit, BsGithub, BsTable } from "react-icons/bs";
 import { LuTestTubes } from "react-icons/lu";
 import { GrMysql } from "react-icons/gr";
-import { SiPostgresql, SiAmazonredshift, SiAmazons3, SiTableau, SiLooker, SiLua, SiMicrosoftexcel, SiGooglebigquery, SiPandas, SiNumpy, SiPytorch, SiR, SiConfluence } from "react-icons/si";
+import { SiPostgresql, SiAmazonredshift, SiAmazons3, SiTableau, SiLooker, SiLua, SiMicrosoftexcel, SiGooglebigquery, SiPandas, SiNumpy, SiPytorch, SiR, SiConfluence, SiSnowflake } from "react-icons/si";
 
 export const SkillsData = [
   {
@@ -35,21 +35,25 @@ export const SkillsData = [
   },
   {
     name: "separator" },
-  {
+    {
+      name: "Snowflake",
+      icon: <SiSnowflake className="md:text-4xl text-2xl" color="#4285F4" />
+    },
+    {
+      name: "BigQuery",
+      icon: <SiGooglebigquery className="md:text-4xl text-2xl" color="#4285F4" />
+    },
+    {
+      name: "Redshift",
+      icon: <SiAmazonredshift className="md:text-4xl text-2xl" color="#276DC3" />
+    },
+    {
     name: "MySQL",
     icon: <GrMysql className="md:text-4xl text-2xl" color="#08668e" />
   },
   {
     name: "PostgreSQL",
     icon: <SiPostgresql className="md:text-4xl text-2xl" color="#336791" />
-  },
-  {
-    name: "Redshift SQL",
-    icon: <SiAmazonredshift className="md:text-4xl text-2xl" color="#276DC3" />
-  },
-  {
-    name: "BigQuery",
-    icon: <SiGooglebigquery className="md:text-4xl text-2xl" color="#4285F4" />
   },
   {
     name: "A/B Testing",
