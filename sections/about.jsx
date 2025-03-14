@@ -75,7 +75,7 @@ const About = () => {
             </p>
             {/* Profile Name */}
             <p className='text-l text-center md:text-left font-semibold text-black-600 mt-3'>
-              Data Scientist | Developer Advocate |Technical Writer
+              Data Scientist | Developer Advocate | Technical Writer
             </p>
 
             <div className='mt-5 justify-evenly text-justify'>
