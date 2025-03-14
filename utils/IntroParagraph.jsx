@@ -12,18 +12,20 @@ const IntroParagraph = () => (
       </span>
     {' '} Scientist,
     </p>
+    <span className='text-[#0c11ab] dark:text-[#0c11ab]'></span>
     <p className='py-2 text-center'>
-      Technical {' '}
       <span className='text-[#0c11ab] dark:text-[#0c11ab]'>
-        Writer, {' '}
+        Developer
       </span>
-      and
+      {' '} Advocate,
     </p>
     <p className='py-2 text-center'>
-      Support {' '}
+    and
+      Technical {' '}
       <span className='text-[#0c11ab] dark:text-[#0c11ab]'>
-         Engineer
+        Writer {' '}
       </span>
+      
     </p>
   </div>
 );
