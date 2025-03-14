@@ -80,12 +80,11 @@ const About = () => {
 
             <div className='mt-5 justify-evenly text-justify'>
               <p className='text-black-600 dark:text-black-300'>
-              I'm looking to utilize my programming, writing, and business skills to make a positive impact via data, analytics, and education.
-			  I've built my career through the following experiences: technical support at Sigma Computing, client-facing data science at Annalect and JPMorgan Chase, technical writing at Crash Course and DataLemur, and analytics reporting at Prose.
+              ​I'm a Developer Relations Advocate at Ascend.io, where I leverage my programming, writing, and business acumen to empower data engineers through automation and education. My career encompasses technical support at Sigma Computing, client-facing data science roles at Annalect and JPMorgan Chase, technical writing for Crash Course and DataLemur, and analytics reporting at Prose.
               </p>
               <br></br>
               <p>
-              When I'm not programming, you'll find me writing, cooking, listening to music, spending time with friends, or planning my next trip. Thanks for taking the time to learn more about me :)
+              When I'm not programming, you can find me writing, cooking, listening to music, spending time with friends, or planning my next trip. Thanks for taking the time to learn more about me :)
               </p>
             </div>
 
