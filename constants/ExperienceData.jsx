@@ -1,9 +1,19 @@
 export const ExperienceData = [
 	{
+		organization: "Ascend.io",
+		role: "Developer Relations Advocate",
+		from_date: "March 2025",
+		to_date: "Present",
+		description:
+		  `● Making data engineering delightful for data engineers
+		  `,
+		  "career_track": ["Data Engineering", "AI",  "Software Engineering", "Product Management", "Technical Writing", "Marketing", "Technical Support"]
+	},
+  {
 		organization: "Sigma Computing",
 		role: "Data Analyst & Technical Support Engineer",
 		from_date: "May 2024",
-		to_date: "Current",
+		to_date: "March 2025",
 		description:
 		  `● Developing Snowflake SQL dashboard to identify improvement areas in customer satisfaction (CSAT)
       ● Leading CSAT analysis to improve satisfaction scores while accommodating a 50% rise in chat volume
@@ -74,7 +84,7 @@ export const ExperienceData = [
       ● Won 2022 Housing Affordability Challenge among 140 interns by implementing PCA and projecting HPI
       ● Conducted literature review to research machine learning methods and strategies for wallet estimation
       `,
-      "career_track": ["Data Science", "Machine Learning", "Finance"]
+      "career_track": ["Data Science", "AI", "Machine Learning", "Product Management", "Finance"]
   },
   {
     organization: "Prose",
