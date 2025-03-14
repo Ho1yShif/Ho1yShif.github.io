@@ -34,75 +34,67 @@ export const SkillsData = [
     icon: <SiLua className="md:text-4xl text-2xl" color="#000080" />
   },
   {
-    name: "separator" },
-    {
-      name: "Snowflake",
-      icon: <SiSnowflake className="md:text-4xl text-2xl" color="#4285F4" />
-    },
-    {
-      name: "BigQuery",
-      icon: <SiGooglebigquery className="md:text-4xl text-2xl" color="#4285F4" />
-    },
-    {
-      name: "Redshift",
-      icon: <SiAmazonredshift className="md:text-4xl text-2xl" color="#276DC3" />
-    },
-    {
-    name: "MySQL",
-    icon: <GrMysql className="md:text-4xl text-2xl" color="#08668e" />
+    name: "Snowflake",
+    icon: <SiSnowflake className="md:text-4xl text-2xl" color="#4285F4" />
   },
   {
-    name: "PostgreSQL",
-    icon: <SiPostgresql className="md:text-4xl text-2xl" color="#336791" />
+    name: "BigQuery",
+    icon: <SiGooglebigquery className="md:text-4xl text-2xl" color="#4285F4" />
   },
   {
-    name: "A/B Testing",
-    icon: <LuTestTubes className="md:text-4xl text-2xl" color="black" />
+    name: "Redshift",
+    icon: <SiAmazonredshift className="md:text-4xl text-2xl" color="#276DC3" />
   },
   {
-    name: "ETL",
-    icon: <BsTable className="md:text-4xl text-2xl" color="#000000" />
-  },
-  {
-    name: "separator"
-  },
-  {
-    name: "AWS S3 CLI",
-    icon: <SiAmazons3 className="md:text-4xl text-2xl" color="#FF9900" />
-  },
-  {
-    name: "Git",
-    icon: <BsGit className="md:text-4xl text-2xl" color="#f4511e" />
-  },
-  {
-    name: "GitHub",
-    icon: <BsGithub className="md:text-4xl text-2xl" color="black" />
-  },
-  {
-    name: "Linux",
-    icon: <FaLinux className="md:text-4xl text-2xl" color="#000000" />
-  },
-  {
-    name: "separator"
-  },
-  {
-    name: "Tableau",
-    icon: <SiTableau className="md:text-4xl text-2xl" color="#E97627" />
-  },
-  {
-    name: "Excel",
-    icon: <SiMicrosoftexcel className="md:text-4xl text-2xl" color="#217346" />
-  },
-  {
-    name: "Looker",
-    icon: <SiLooker className="md:text-4xl text-2xl" color="#000000" />
-  },
-  {
-    name: "Jira",
-    icon: <FaJira className="md:text-4xl text-2xl" color="#0052CC" />
-  },
-  {
-    name: "Confluence",
-    icon: <SiConfluence className="md:text-4xl text-2xl" color="#172B4D" />
-  }
+  name: "MySQL",
+  icon: <GrMysql className="md:text-4xl text-2xl" color="#08668e" />
+},
+{
+  name: "PostgreSQL",
+  icon: <SiPostgresql className="md:text-4xl text-2xl" color="#336791" />
+},
+{
+  name: "A/B Testing",
+  icon: <LuTestTubes className="md:text-4xl text-2xl" color="black" />
+},
+{
+  name: "ETL",
+  icon: <BsTable className="md:text-4xl text-2xl" color="#000000" />
+},
+{
+  name: "AWS S3 CLI",
+  icon: <SiAmazons3 className="md:text-4xl text-2xl" color="#FF9900" />
+},
+{
+  name: "Git",
+  icon: <BsGit className="md:text-4xl text-2xl" color="#f4511e" />
+},
+{
+  name: "GitHub",
+  icon: <BsGithub className="md:text-4xl text-2xl" color="black" />
+},
+{
+  name: "Linux",
+  icon: <FaLinux className="md:text-4xl text-2xl" color="#000000" />
+},
+{
+  name: "Tableau",
+  icon: <SiTableau className="md:text-4xl text-2xl" color="#E97627" />
+},
+{
+  name: "Excel",
+  icon: <SiMicrosoftexcel className="md:text-4xl text-2xl" color="#217346" />
+},
+{
+  name: "Looker",
+  icon: <SiLooker className="md:text-4xl text-2xl" color="#000000" />
+},
+{
+  name: "Jira",
+  icon: <FaJira className="md:text-4xl text-2xl" color="#0052CC" />
+},
+{
+  name: "Confluence",
+  icon: <SiConfluence className="md:text-4xl text-2xl" color="#172B4D" />
+}
 ];
