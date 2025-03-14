@@ -35,6 +35,15 @@ export const ProjectsData = [
         techs: ["Lua", "Technical Writing"]
     },
     {
+        projectName: "Snow It All",
+        liveUrl: "https://docs.google.com/presentation/d/1keW7NyoTF-HZtHlXJzlhkUlBpfOyG7t9466k-EC8AHA/edit?usp=sharing",
+        githubUrl: "https://github.com/Ho1yShif/Snow-It-All",
+        projectImage: {
+            imageUrl: "https://www.weather.gov/images/nws/snowy-road.jpg"
+        },
+        techs: ["Python", "AI", "LLMs", "Chatbot"]
+    },
+    {
         projectName: "Shakespeare GPT",
         githubUrl: "https://github.com/Ho1yShif/nanogpt",
         projectImage: {
