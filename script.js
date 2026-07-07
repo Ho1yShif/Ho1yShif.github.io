@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function initializeApp() {
+    // Capture the deep-link target before the scroll observer overwrites the hash.
+    const initialHash = window.location.hash;
     renderProjects();
     renderAppearances();
     renderSkills();
@@ -19,6 +21,38 @@ function initializeApp() {
     initializeExperience();
     initializeKeyboardNavigation();
     initializeTypingEffect();
+    initializeHashNavigation(initialHash);
+}
+
+// ===== URL HASH (anchor links) =====
+// Update the address bar without adding a history entry or triggering a native jump.
+function setHash(sectionId) {
+    if (!sectionId) return;
+    const newHash = `#${sectionId}`;
+    if (window.location.hash === newHash) return;
+    history.replaceState(null, '', newHash);
+}
+
+// Navigate to a section referenced by a URL hash (deep-linking + back/forward).
+function navigateToHash(hash, behavior = 'smooth') {
+    const sectionId = (hash || '').replace('#', '');
+    if (!sectionId) return;
+    const section = document.getElementById(sectionId);
+    if (!section) return;
+    scrollToSection(sectionId, behavior);
+    setActiveSidebarItem(sectionId);
+    setActiveTab(sectionId);
+    setHash(sectionId);
+}
+
+function initializeHashNavigation(initialHash) {
+    // Deep-link on initial load. Jump instantly so the page lands in place.
+    if (initialHash) {
+        // Delay a tick so dynamically rendered sections have their final height.
+        requestAnimationFrame(() => navigateToHash(initialHash, 'auto'));
+    }
+    // Respond to back/forward navigation.
+    window.addEventListener('hashchange', () => navigateToHash(window.location.hash, 'smooth'));
 }
 
 // ===== SIDEBAR =====
@@ -32,6 +66,7 @@ function initializeSidebar() {
             scrollToSection(sectionId);
             setActiveSidebarItem(sectionId);
             setActiveTab(sectionId);
+            setHash(sectionId);
 
             // Close sidebar on mobile
             if (window.innerWidth < 1024) {
@@ -74,6 +109,7 @@ function initializeIDETabs() {
             scrollToSection(sectionId);
             setActiveTab(sectionId);
             setActiveSidebarItem(sectionId);
+            setHash(sectionId);
         });
     });
 }
@@ -91,12 +127,12 @@ function setActiveTab(sectionId) {
 }
 
 // ===== SCROLL TO SECTION =====
-function scrollToSection(sectionId) {
+function scrollToSection(sectionId, behavior = 'smooth') {
     const section = document.getElementById(sectionId);
     const content = document.getElementById('main-content');
     if (section && content) {
         const offsetTop = Math.max(0, section.offsetTop - 32);
-        content.scrollTo({ top: offsetTop, behavior: 'smooth' });
+        content.scrollTo({ top: offsetTop, behavior });
     }
 }
 
@@ -122,6 +158,7 @@ function initializeScrollObserver() {
         const id = active.id;
         setActiveSidebarItem(id);
         setActiveTab(id);
+        setHash(id);
         const mobileTitle = document.querySelector('.mobile-header-title');
         if (mobileTitle) mobileTitle.textContent = `shifra_db / ${id}.sql`;
     }
@@ -298,6 +335,7 @@ function initializeKeyboardNavigation() {
                 scrollToSection(sectionId);
                 setActiveSidebarItem(sectionId);
                 setActiveTab(sectionId);
+                setHash(sectionId);
             }
         }
 
