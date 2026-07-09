@@ -323,7 +323,9 @@ body {
     flex: 1;
     overflow-y: auto;
     background: var(--bg-color);
-    scroll-behavior: smooth;
+    /* Scroll behavior is controlled per-call in JS (scrollToSection) so deep-link
+       jumps can be instant ('auto') while nav clicks stay smooth. A CSS
+       scroll-behavior here would override the JS 'auto' and defeat the instant jump. */
 }
 
 .ide-content::-webkit-scrollbar {

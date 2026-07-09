@@ -127,13 +127,55 @@ function setActiveTab(sectionId) {
 }
 
 // ===== SCROLL TO SECTION =====
+// Track the in-flight custom scroll so a new navigation cancels the previous one.
+let activeScrollRaf = null;
+const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+// easeInOutCubic — slow start, quick middle, gentle settle for a polished feel.
+function easeInOutCubic(t) {
+    return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+}
+
 function scrollToSection(sectionId, behavior = 'smooth') {
     const section = document.getElementById(sectionId);
     const content = document.getElementById('main-content');
-    if (section && content) {
-        const offsetTop = Math.max(0, section.offsetTop - 32);
-        content.scrollTo({ top: offsetTop, behavior });
+    if (!section || !content) return;
+
+    const targetTop = Math.max(0, section.offsetTop - 32);
+
+    // Cancel any animation already running so rapid clicks don't fight.
+    if (activeScrollRaf !== null) {
+        cancelAnimationFrame(activeScrollRaf);
+        activeScrollRaf = null;
     }
+
+    // Instant jump for deep-links and when the user prefers reduced motion.
+    if (behavior === 'auto' || prefersReducedMotion) {
+        content.scrollTo({ top: targetTop });
+        return;
+    }
+
+    const startTop = content.scrollTop;
+    const distance = targetTop - startTop;
+    if (distance === 0) return;
+
+    // Duration scales with distance (capped) so short and long hops both feel right.
+    const duration = Math.min(900, Math.max(450, Math.abs(distance) * 0.6));
+    let startTime = null;
+
+    function step(now) {
+        if (startTime === null) startTime = now;
+        const elapsed = now - startTime;
+        const progress = Math.min(1, elapsed / duration);
+        content.scrollTop = startTop + distance * easeInOutCubic(progress);
+        if (progress < 1) {
+            activeScrollRaf = requestAnimationFrame(step);
+        } else {
+            activeScrollRaf = null;
+        }
+    }
+
+    activeScrollRaf = requestAnimationFrame(step);
 }
 
 // ===== SCROLL OBSERVER (sync active state on scroll) =====
@@ -142,6 +184,8 @@ function initializeScrollObserver() {
     if (!content) return;
 
     const sections = Array.from(document.querySelectorAll('section[id]'));
+    let rafId = null;
+    let hashTimer = null;
 
     function getActiveSection() {
         const triggerPoint = content.scrollTop + content.clientHeight * 0.3;
@@ -158,12 +202,26 @@ function initializeScrollObserver() {
         const id = active.id;
         setActiveSidebarItem(id);
         setActiveTab(id);
-        setHash(id);
         const mobileTitle = document.querySelector('.mobile-header-title');
         if (mobileTitle) mobileTitle.textContent = `shifra_db / ${id}.sql`;
+
+        // Defer the address-bar update until scrolling settles. Writing the hash
+        // on every scroll frame janks the scroll and trips Safari's
+        // history.replaceState rate limit.
+        clearTimeout(hashTimer);
+        hashTimer = setTimeout(() => setHash(id), 120);
     }
 
-    content.addEventListener('scroll', updateActiveSection, { passive: true });
+    // Throttle to one update per frame so the scroll stays smooth.
+    function onScroll() {
+        if (rafId !== null) return;
+        rafId = requestAnimationFrame(() => {
+            rafId = null;
+            updateActiveSection();
+        });
+    }
+
+    content.addEventListener('scroll', onScroll, { passive: true });
     updateActiveSection();
 }
 
